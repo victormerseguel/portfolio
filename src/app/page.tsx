@@ -1,12 +1,5 @@
-import Image from "next/image";
-import Header from "./components/header/header";
-import Projects from "./components/projects/projects";
+import Page from "./components/_page";
 
 export default function Home() {
-  return (
-    <div>
-      <Header />
-      <Projects />
-    </div>
-  );
+  return <Page lang={"en"} />;
 }

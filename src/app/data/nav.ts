@@ -1,4 +1,4 @@
-type navItemsProps = { en: string; pt: string; link: string };
+export type navItemsProps = { en: string; pt: string; link: string };
 
 export const navItems: navItemsProps[] = [
   {

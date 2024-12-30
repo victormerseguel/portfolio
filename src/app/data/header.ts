@@ -1,4 +1,4 @@
-type HeaderProps = {
+export type HeaderProps = {
   en: string;
   pt: string;
 };

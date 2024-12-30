@@ -1,19 +1,17 @@
-"use client";
-import { useContext } from "react";
-import { Context } from "../../hooks/useContext";
+type ObjectProps = {
+  en: string;
+  pt: string;
+  link: string;
+};
 
 type TitlesProps = {
   text?: string;
-  object?: {
-    en: string;
-    pt: string;
-    link: string;
-  };
+  object?: ObjectProps;
   small?: boolean;
+  lang?: string;
 };
 
-const Titles = ({ text, object, small }: TitlesProps) => {
-  const { language } = useContext(Context);
+const Titles = ({ text, object, small, lang }: TitlesProps) => {
   const sm = 46;
   const def = 56;
 
@@ -23,7 +21,7 @@ const Titles = ({ text, object, small }: TitlesProps) => {
         small ? "text-[46px] tracking-[-7px]" : "text-[56px] tracking-[-9px]"
       }`}
     >
-      {object ? (language === "en" ? object?.en : object.pt) : text}
+      {object ? object[lang as keyof ObjectProps] : text}
     </div>
   );
 };
