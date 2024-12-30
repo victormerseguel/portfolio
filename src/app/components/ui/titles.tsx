@@ -19,12 +19,9 @@ const Titles = ({ text, object, small }: TitlesProps) => {
 
   return (
     <div
-      style={{
-        fontSize: `${small ? sm : def}px`,
-        textTransform: "uppercase",
-        letterSpacing: `${(small ? sm : def) * -0.12}px`,
-        fontWeight: 900,
-      }}
+      className={`uppercase font-black ${
+        small ? "text-[46px] tracking-[-7px]" : "text-[56px] tracking-[-9px]"
+      }`}
     >
       {object ? (language === "en" ? object?.en : object.pt) : text}
     </div>
