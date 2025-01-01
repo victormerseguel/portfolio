@@ -1,7 +1,7 @@
 import Titles from "../ui/titles";
 import { useTranslations } from "next-intl";
 import Button from "../ui/buttom";
-import NorthEastArrow from "../ui/north-east-arrow";
+import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 import ProjectCard from "./project-card";
 
 const Projects = () => {

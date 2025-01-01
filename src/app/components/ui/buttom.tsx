@@ -1,4 +1,4 @@
-import NorthEastArrow from "./north-east-arrow";
+import NorthEastArrow from "./icons/north-east-arrow-icon";
 
 type ButtonProps = {
   text: string;

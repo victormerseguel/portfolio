@@ -15,6 +15,7 @@ const Titles = ({ small, text }: TitlesProps) => {
       className={`uppercase font-black ${
         small ? "text-[46px] tracking-[-7px]" : "text-[56px] tracking-[-9px]"
       }`}
+      style={{ wordSpacing: `${small ? "10px" : "15px"}` }}
     >
       {text}
     </div>

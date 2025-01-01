@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import NorthEastArrow from "../ui/north-east-arrow";
+import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 
 type ProjectCardProps = {
   src: string;

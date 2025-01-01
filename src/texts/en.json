@@ -22,11 +22,14 @@
   },
   "About": {
     "title": "About me",
-    "text": "",
+    "text": {
+      "p1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
     "skills_title": "My skills",
-    "skills_items": [],
+    "skills_items": "teste",
     "another_title": "another complementary skills",
-    "another_items": [],
+    "another_items": "teste",
     "button": "Get my resume"
   },
   "Footer": {
