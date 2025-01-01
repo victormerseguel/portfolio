@@ -17,6 +17,7 @@
   "Projects": {
     "title": "Projects",
     "projects": [],
+    "project-link": "view project",
     "button": "View all"
   },
   "About": {

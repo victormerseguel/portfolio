@@ -11,7 +11,7 @@ const Button = ({ text, image, reversed }: ButtonProps) => {
     <div
       className={`flex ${
         reversed ? "flex-row-reverse" : "flex-row"
-      } justify-center items-center gap-1.5 max-w-52 h-12 border border-[--foregraound] rounded-full`}
+      } justify-center items-center gap-1.5 max-w-52 h-12 border border-[--foregraound] rounded-full cursor-pointer hover:opacity-70`}
     >
       <p className="uppercase">{text}</p>
       {image}
