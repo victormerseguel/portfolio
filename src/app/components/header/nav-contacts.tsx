@@ -1,18 +1,18 @@
+import Link from "next/link";
 import NavSelect from "./nav-select";
+import { contacts, links } from "@/texts/arraysMaps";
+import { useTranslations } from "next-intl";
 
-const NavContacts = ({ lang }: { lang: string }) => {
+const NavContacts = () => {
+  const t = useTranslations("Header");
   return (
     <div className="w-36  ">
       <ul className="flex flex-col gap-1.5 text-sm ml-auto">
-        <li>
-          <a href="/">Linkedin</a>
-        </li>
-        <li>
-          <a href="/">GitHub</a>
-        </li>
-        <li>
-          <a href="/">{lang === "en" ? "Resume" : "Currículo"}</a>
-        </li>
+        {contacts.map((contact) => (
+          <li>
+            <Link href={"/"}>{t(`contacts.${contact}`)}</Link>
+          </li>
+        ))}
         <li>
           <NavSelect />
         </li>

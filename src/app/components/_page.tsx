@@ -5,8 +5,8 @@ import Projects from "./projects/projects";
 const Page = ({ lang }: { lang: string }) => {
   return (
     <div>
-      <Header lang={lang} />
-      <Projects lang={lang} />
+      <Header />
+      <Projects />
     </div>
   );
 };

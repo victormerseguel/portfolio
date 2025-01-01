@@ -1,0 +1,36 @@
+{
+  "Header": {
+    "links": {
+      "projects": "Projectos",
+      "about": "Sobre",
+      "contacts": "Contactos"
+    },
+    "contacts": {
+      "linkedin": "Linkedin",
+      "github": "GitHub",
+      "resume": "Currículo"
+    },
+    "title": "🖐🏼 Olá, eu sou o Victor Merseguel,",
+    "subtitle_1": "um desenvolvedor front end,",
+    "subtitle_2": "apaixonado por pixel perfect."
+  },
+  "Projects": {
+    "title": "Projectos",
+    "projects": [],
+    "button": "Ver todos"
+  },
+  "About": {
+    "title": "Sobre mim",
+    "text": "",
+    "skills_title": "Minhas skills",
+    "skills_items": [],
+    "another_title": "habilidade complementares",
+    "another_items": [],
+    "button": "Acesse meu currículo"
+  },
+  "Footer": {
+    "title": "Vamos conversar.",
+    "buttons": { "email": "email", "whatsapp": "whatsapp" },
+    "rights": "@ Victor   |   All rights reserved"
+  }
+}

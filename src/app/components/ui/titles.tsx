@@ -1,17 +1,12 @@
-type ObjectProps = {
-  en: string;
-  pt: string;
-  link: string;
-};
+import { useTranslations } from "next-intl";
 
 type TitlesProps = {
-  text?: string;
-  object?: ObjectProps;
+  text: string;
   small?: boolean;
-  lang?: string;
 };
 
-const Titles = ({ text, object, small, lang }: TitlesProps) => {
+const Titles = ({ small, text }: TitlesProps) => {
+  const t = useTranslations("Header");
   const sm = 46;
   const def = 56;
 
@@ -21,7 +16,7 @@ const Titles = ({ text, object, small, lang }: TitlesProps) => {
         small ? "text-[46px] tracking-[-7px]" : "text-[56px] tracking-[-9px]"
       }`}
     >
-      {object ? object[lang as keyof ObjectProps] : text}
+      {text}
     </div>
   );
 };
