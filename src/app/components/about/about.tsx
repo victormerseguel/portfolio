@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Titles from "../ui/titles";
 import Image from "next/image";
-import Button from "../ui/buttom";
+import Button from "../ui/button";
 
 const About = () => {
   const t = useTranslations("About");

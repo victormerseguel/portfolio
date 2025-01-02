@@ -1,6 +1,6 @@
 import Titles from "../ui/titles";
 import { useTranslations } from "next-intl";
-import Button from "../ui/buttom";
+import Button from "../ui/button";
 import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 import ProjectCard from "./project-card";
 
