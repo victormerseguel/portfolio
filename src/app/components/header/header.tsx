@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header
-      className="bg-fixed bg-center bg-no-repeat bg-cover rounded-br-[100px] rounded-bl-[100px] pb-24 pl-5 pr-5"
+      className="bg-fixed bg-center bg-no-repeat bg-cover rounded-b-[100px] pb-24 px-5"
       style={{ backgroundImage: 'url("/bg-grain.jpg")' }}
     >
       <div className="content">
