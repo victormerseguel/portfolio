@@ -24,9 +24,26 @@
     "title": "Sobre mim",
     "text": "",
     "skills_title": "Minhas skills",
-    "skills_items": [],
+    "skills_items": {
+      "javascript": { "text": "javascript", "icon": "javascript-icon.tsx" },
+      "typescript": { "text": "typescript", "icon": "typescript-icon.tsx" },
+      "react": { "text": "react js/ts", "icon": "react-icon.tsx" },
+      "next": { "text": "next.js", "icon": "next-icon.tsx" },
+      "html": { "text": "html", "icon": "html-icon.tsx" },
+      "css": { "text": "css", "icon": "css-icon.tsx" },
+      "tailwind": { "text": "tailwind", "icon": "tailwind-icon.tsx" },
+      "git": { "text": "git", "icon": "git-icon.tsx" },
+      "github": { "text": "github", "icon": "github-icon.tsx" }
+    },
     "another_title": "habilidade complementares",
-    "another_items": [],
+    "another_items": {
+      "figma": "figma",
+      "photoshop": "photoshop",
+      "adobe-xd": "adobe xd",
+      "styled-components": "styled-components",
+      "macos": "macos",
+      "windows": "windows"
+    },
     "button": "Acesse meu currículo"
   },
   "Footer": {

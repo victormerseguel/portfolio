@@ -16,7 +16,7 @@
   },
   "Projects": {
     "title": "Projects",
-    "projects": [],
+    "projects": {},
     "project-link": "view project",
     "button": "View all"
   },
@@ -27,14 +27,31 @@
       "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     "skills_title": "My skills",
-    "skills_items": "teste",
+    "skills_items": {
+      "javascript": { "text": "javascript", "icon": "javascript-icon.tsx" },
+      "typescript": { "text": "typescript", "icon": "typescript-icon.tsx" },
+      "react": { "text": "react js/ts", "icon": "react-icon.tsx" },
+      "next": { "text": "next.js", "icon": "next-icon.tsx" },
+      "html": { "text": "html", "icon": "html-icon.tsx" },
+      "css": { "text": "css", "icon": "css-icon.tsx" },
+      "tailwind": { "text": "tailwind", "icon": "tailwind-icon.tsx" },
+      "git": { "text": "git", "icon": "git-icon.tsx" },
+      "github": { "text": "github", "icon": "github-icon.tsx" }
+    },
     "another_title": "another complementary skills",
-    "another_items": "teste",
+    "another_items": {
+      "figma": "figma",
+      "photoshop": "photoshop",
+      "adobe-xd": "adobe xd",
+      "styled-components": "styled-components",
+      "macos": "macos",
+      "windows": "windows"
+    },
     "button": "Get my resume"
   },
   "Footer": {
     "title": "Let's talk.",
     "buttons": { "email": "email me", "whatsapp": "whatsapp" },
-    "rights": "@ Victor   |   All rights reserved"
+    "rights": "Victor   |   All rights reserved"
   }
 }
