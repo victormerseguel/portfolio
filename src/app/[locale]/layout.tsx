@@ -31,7 +31,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth focus:scroll-auto">
       <body className={dmSans.className}>
         <NextIntlClientProvider messages={messages}>
           {children}

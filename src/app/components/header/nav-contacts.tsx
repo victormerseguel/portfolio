@@ -8,8 +8,8 @@ const NavContacts = () => {
   return (
     <div className="w-36  ">
       <ul className="flex flex-col gap-1.5 text-sm ml-auto">
-        {contacts.map((contact) => (
-          <li>
+        {contacts.map((contact, i) => (
+          <li key={i}>
             <Link href={"/"}>{t(`contacts.${contact}`)}</Link>
           </li>
         ))}
