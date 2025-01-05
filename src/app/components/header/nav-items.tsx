@@ -1,9 +1,10 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { links } from "@/texts/arraysMaps";
+import en from "@/texts/en.json";
 
 const NavItems = () => {
   const t = useTranslations("Header");
+  const links = Object.keys(en.Header.links);
 
   return (
     <ul className="flex justify-evenly items-center h-12 w-[425px] rounded-full bg-background text-sm mr-auto">

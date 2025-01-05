@@ -2,11 +2,13 @@ import { useTranslations } from "next-intl";
 import Titles from "../ui/titles";
 import Image from "next/image";
 import Button from "../ui/button";
-import { skills, anotherSkills } from "@/texts/arraysMaps";
 import AboutSkills from "./about-skills";
+import en from "../../../texts/en.json";
 
 const About = () => {
   const t = useTranslations("About");
+  const skills = Object.keys(en.About.skills_items);
+  const anotherSkills = Object.keys(en.About.another_items);
 
   return (
     <div
@@ -46,7 +48,7 @@ const About = () => {
             </h4>
             <p className="uppercase text-lightGray text-sm mb-12">
               {anotherSkills.map((item, i) => (
-                <span>
+                <span key={i}>
                   {t(`another_items.${item}`)}
                   {i < anotherSkills.length - 1 ? ", " : "."}
                 </span>

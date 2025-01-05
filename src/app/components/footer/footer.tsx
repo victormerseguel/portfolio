@@ -2,14 +2,16 @@ import React from "react";
 import Button from "../ui/button";
 import MailIcon from "../ui/icons/mail-icon";
 import WhatsappIcon from "../ui/icons/whatsapp-icon";
-import { contacts } from "@/texts/arraysMaps";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import en from "@/texts/en.json";
 
 const Footer = () => {
   const t = useTranslations("Footer");
   const h = useTranslations("Header");
   const year = new Date().getFullYear();
+
+  const contacts = Object.keys(en.Header.contacts);
 
   return (
     <div className="content flex flex-col" id="contacts">

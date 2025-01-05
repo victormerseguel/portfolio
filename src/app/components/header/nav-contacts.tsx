@@ -1,10 +1,12 @@
 import Link from "next/link";
 import NavSelect from "./nav-select";
-import { contacts, links } from "@/texts/arraysMaps";
 import { useTranslations } from "next-intl";
+import en from "@/texts/en.json";
 
 const NavContacts = () => {
   const t = useTranslations("Header");
+  const contacts = Object.keys(en.Header.contacts);
+
   return (
     <div className="w-36  ">
       <ul className="flex flex-col gap-1.5 text-sm ml-auto">
