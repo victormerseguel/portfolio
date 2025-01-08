@@ -3,19 +3,13 @@ import React from "react";
 const ResumeButton = () => {
   return (
     <svg
-      width="45"
-      height="45"
+      width="40"
+      height="40"
       viewBox="0 0 45 45"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle
-        cx="22.5"
-        cy="22.5"
-        r="22"
-        stroke="#17130F"
-        stroke-opacity="0.1"
-      />
+      <circle cx="22.5" cy="22.5" r="22" stroke="#17130F" strokeOpacity="0.5" />
       <path
         d="M23.9487 21.8211C23.6501 21.9208 23.3316 21.9761 23 21.9761C22.6684 21.9761 22.3498 21.9208 22.0512 21.8211C19.8822 22.1773 18.7471 23.7715 18.7471 25.7059H23H27.2529C27.2529 23.7715 26.1179 22.1773 23.9487 21.8211Z"
         fill="#17130F"
