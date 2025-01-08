@@ -16,13 +16,16 @@
   },
   "Projects": {
     "title": "Projectos",
-    "projects": [],
+    "projects": {},
     "project-link": "ver projeto",
     "button": "Ver todos"
   },
   "About": {
     "title": "Sobre mim",
-    "text": "",
+    "text": {
+      "p1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
     "skills_title": "Minhas skills",
     "skills_items": {
       "javascript": { "text": "javascript", "icon": "javascript-icon.tsx" },
@@ -49,6 +52,41 @@
   "Footer": {
     "title": "Vamos conversar.",
     "buttons": { "email": "email", "whatsapp": "whatsapp" },
-    "rights": "@ Victor   |   All rights reserved"
+    "rights": "Victor   |   All rights reserved"
+  },
+  "Project-page": {
+    "projects": {
+      "project_1": {
+        "image": { "img": "/project-fabuloso-1.jpg", "thumb": "" },
+        "title": "Project Title",
+        "description": "Lorem ipsum dolor sit amet consectetur. At scelerisque semper mattis sed montes augue tristique sed dignissim. Ornare facilisis ipsum amet sit nibh vitae. Laoreet nunc gravida amet turpis pharetra pretium pulvinar. Velit nulla lectus pellentesque auctor. Nisi vitae nec condimentum ullamcorper quam sed urna lectus amet. Nisl in diam amet dignissim scelerisque quam mauris. Gravida amet turpis morbi integer vel. Ac viverra blandit non tempus consectetur nunc dictumst porta convallis. Rhoncus tempor aliquet ornare justo dui turpis.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": true,
+          "react": true,
+          "next": true,
+          "html": true,
+          "css": true,
+          "tailwind": true
+        },
+        "projectURL": "https://victormerseguel.com/film",
+        "githubURL": "https://github.com/victormerseguel/victor-portfolio"
+      }
+    },
+    "nav": {
+      "name": "Victor Merseguel",
+      "job": "Front End Developer",
+      "button": "Entre em Contacto"
+    },
+    "about": {
+      "title": "Sobre o projecto",
+      "role": "Meu papel",
+      "technologies": "Tecnologias",
+      "buttons": {
+        "1": "Ver Projecto",
+        "2": "Repositório"
+      }
+    }
   }
 }

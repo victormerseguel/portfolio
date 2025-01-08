@@ -53,5 +53,40 @@
     "title": "Let's talk.",
     "buttons": { "email": "email me", "whatsapp": "whatsapp" },
     "rights": "Victor   |   All rights reserved"
+  },
+  "Project-page": {
+    "projects": {
+      "project_1": {
+        "image": { "img": "/project-fabuloso-1.jpg", "thumb": "" },
+        "title": "Project Title",
+        "description": "Lorem ipsum dolor sit amet consectetur. At scelerisque semper mattis sed montes augue tristique sed dignissim. Ornare facilisis ipsum amet sit nibh vitae. Laoreet nunc gravida amet turpis pharetra pretium pulvinar. Velit nulla lectus pellentesque auctor. Nisi vitae nec condimentum ullamcorper quam sed urna lectus amet. Nisl in diam amet dignissim scelerisque quam mauris. Gravida amet turpis morbi integer vel. Ac viverra blandit non tempus consectetur nunc dictumst porta convallis. Rhoncus tempor aliquet ornare justo dui turpis.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": true,
+          "react": true,
+          "next": true,
+          "html": true,
+          "css": true,
+          "tailwind": true
+        },
+        "projectURL": "https://victormerseguel.com/film",
+        "githubURL": "https://github.com/victormerseguel/victor-portfolio"
+      }
+    },
+    "nav": {
+      "name": "Victor Merseguel",
+      "job": "Front End Developer",
+      "button": "Get in touch"
+    },
+    "about": {
+      "title": "About project",
+      "role": "My role",
+      "technologies": "Technologies",
+      "buttons": {
+        "1": "View Project",
+        "2": "Repository"
+      }
+    }
   }
 }

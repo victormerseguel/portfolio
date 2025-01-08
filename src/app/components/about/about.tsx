@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Titles from "../ui/titles";
 import Image from "next/image";
 import Button from "../ui/button";
-import AboutSkills from "./about-skills";
+import SkillsItem from "../ui/skills-item";
 import en from "../../../texts/en.json";
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
             </h4>
             <div className="grid grid-cols-3 space-y-2 text-lightGray mt-2 mb-12">
               {skills.map((skill, i) => (
-                <AboutSkills
+                <SkillsItem
                   item={t(`skills_items.${skill}.icon`)}
                   text={t(`skills_items.${skill}.text`)}
                   key={i}
