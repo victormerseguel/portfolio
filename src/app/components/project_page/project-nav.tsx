@@ -7,7 +7,7 @@ import Button from "../ui/button";
 import en from "@/texts/en.json";
 
 const ProjectNav = () => {
-  const t = useTranslations("Project-page");
+  const t = useTranslations("ProjectPage");
   const links = Object.keys(en.Header.contacts);
 
   return (

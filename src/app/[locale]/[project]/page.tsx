@@ -2,22 +2,17 @@ import Footer from "@/app/components/footer/footer";
 import CloseButton from "@/app/components/ui/icons/close-button";
 
 import ProjectNav from "@/app/components/project_page/project-nav";
-import Image from "next/image";
 import en from "@/texts/en.json";
 import { useTranslations } from "next-intl";
-import SkillsItem from "@/app/components/ui/skills-item";
-import Button from "@/app/components/ui/button";
-import NorthEastArrow from "@/app/components/ui/icons/north-east-arrow-icon";
-import Github2Icon from "@/app/components/ui/icons/github-2-icon";
 import ProjectTitle from "@/app/components/project_page/project-title";
 import ProjectInfo from "@/app/components/project_page/project-info";
 
 const Page = () => {
   const a = useTranslations("About");
-  const t = useTranslations("Project-page");
+  const t = useTranslations("ProjectPage");
   const tech_list = Object.keys(en.About.skills_items);
   const tech_project = Object.keys(
-    en["Project-page"].projects.project_1.technologies
+    en.ProjectPage.projects.project_1.technologies
   );
 
   return (

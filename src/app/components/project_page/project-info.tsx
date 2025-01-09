@@ -15,10 +15,11 @@ const ProjectInfo = () => {
   const pathname = usePathname().slice(1);
 
   const a = useTranslations("About");
-  const t = useTranslations("Project-page");
+  const t = useTranslations("ProjectPage");
   const tech_list = Object.keys(en.About.skills_items);
   const tech_project = Object.keys(
-    en["Project-page"].projects[pathname].technologies
+    en.ProjectPage.projects[pathname as keyof typeof en.ProjectPage.projects]
+      .technologies
   );
 
   return (

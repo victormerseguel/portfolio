@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 
 const ProjectTitle = () => {
   const pathname = usePathname().slice(1);
-  const t = useTranslations("Project-page");
+  const t = useTranslations("ProjectPage");
 
   return (
     <h3 className="text-3xl font-bold pt-20 mb-10">

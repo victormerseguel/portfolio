@@ -54,7 +54,7 @@
     "buttons": { "email": "email", "whatsapp": "whatsapp" },
     "rights": "Victor   |   All rights reserved"
   },
-  "Project-page": {
+  "ProjectPage": {
     "projects": {
       "project_1": {
         "image": { "img": "/project-fabuloso-1.jpg", "thumb": "" },
