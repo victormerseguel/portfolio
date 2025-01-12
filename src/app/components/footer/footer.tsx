@@ -5,6 +5,7 @@ import WhatsappIcon from "../ui/icons/whatsapp-icon";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import en from "@/texts/en.json";
+import Titles from "../ui/titles";
 
 const Footer = ({ background }: { background?: boolean }) => {
   const t = useTranslations("Footer");
@@ -17,14 +18,15 @@ const Footer = ({ background }: { background?: boolean }) => {
 
   return (
     <footer
-      className={`bg-background rounded-t-[100px] bg-no-repeat bg-cover`}
+      className={`bg-background rounded-t-[50px] md:rounded-t-[100px] bg-no-repeat bg-cover`}
       style={{ backgroundImage: `${backImage}` }}
     >
       <div className="content flex flex-col" id="contacts">
-        <h5 className="font-black text-center text-5xl uppercase mt-20 mb-14">
-          {t("title")}
-        </h5>
-        <div className="flex gap-12 mx-auto mb-14">
+        <div className="mt-20">
+          <Titles text={t("title")} position="center" />
+        </div>
+
+        <div className="flex flex-col gap-3 md:flex-row md:gap-12 mx-auto mb-14">
           <Button
             text={t("buttons.email")}
             image={<MailIcon />}

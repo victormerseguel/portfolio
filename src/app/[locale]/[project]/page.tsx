@@ -6,6 +6,7 @@ import en from "@/texts/en.json";
 import { useTranslations } from "next-intl";
 import ProjectTitle from "@/app/components/project_page/project-title";
 import ProjectInfo from "@/app/components/project_page/project-info";
+import ProjectClose from "@/app/components/project_page/project-close";
 
 const Page = () => {
   const a = useTranslations("About");
@@ -17,15 +18,13 @@ const Page = () => {
 
   return (
     <div className="bg-background2">
-      <div className="flex justify-end fixed top-0 w-full z-40 bg-background2 cursor-zoom-out">
-        <CloseButton />
-      </div>
+      <ProjectClose />
       <div className="bg-background h-52 mt-[50px] rounded-t-xl">
-        <div className="content mb-28">
+        <div className="mx-3 md:content mb-28">
           <ProjectTitle />
           <ProjectNav />
           <div
-            className="flex flex-col items-center mt-12 pt-12 pb-24 px-10 bg-no-repeat bg-cover rounded-2xl"
+            className="flex flex-col items-center my-12 pt-12 pb-24 px-3 md:px-10 bg-no-repeat bg-cover rounded-2xl"
             style={{ backgroundImage: "url(/bg-grain.jpg)" }}
           >
             <ProjectInfo />

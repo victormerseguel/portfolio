@@ -5,7 +5,7 @@
 :root {
   --background: #fffdfb;
   --background2: #413f3d;
-  --foreground: #17130f;
+  --foreground: #29221b;
   --lightGray: #5e5a57;
 }
 
@@ -20,5 +20,14 @@ body {
     max-width: 1000px;
     padding: 0 20px;
     margin: 0 auto;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: initial;
   }
 }

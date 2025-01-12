@@ -11,8 +11,8 @@ const ProjectNav = () => {
   const links = Object.keys(en.Header.contacts);
 
   return (
-    <nav className="flex justify-between items-center sticky top-12 bg-background py-2 z-30">
-      <div className="flex gap-2.5 items-center">
+    <nav className="flex flex-col md:flex-row justify-between items-center md:sticky top-12 bg-background py-2 z-30">
+      <div className="flex gap-2.5 items-center mb-4 md:mb-0">
         <Image
           src={"/victor-photo-1.png"}
           alt="Victor Merseguel"
@@ -24,12 +24,17 @@ const ProjectNav = () => {
           <p className="uppercase font-light text-[11px]">{t("nav.job")}</p>
         </div>
       </div>
-      <div className="flex gap-5">
+      <div className="hidden md:flex gap-5">
         {links.map((link, i) => (
           <Link href={"/"} key={i} className="hover:opacity-70">
             <IconLink icon={link} />
           </Link>
         ))}
+        <div className="">
+          <Button text={t("nav.button")} dark />
+        </div>
+      </div>
+      <div className="md:hidden mt-0">
         <Button text={t("nav.button")} dark />
       </div>
     </nav>

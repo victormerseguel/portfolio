@@ -3,23 +3,23 @@ import { useTranslations } from "next-intl";
 type TitlesProps = {
   text: string;
   small?: boolean;
-  right?: boolean;
+  position: "start" | "center" | "end";
 };
 
-const Titles = ({ small, text, right }: TitlesProps) => {
+const Titles = ({ small, text, position }: TitlesProps) => {
   const t = useTranslations("Header");
   const sm = 46;
   const def = 56;
 
   return (
-    <div
-      className={`uppercase font-black mb-8 ${
+    <h3
+      className={`uppercase font-black md:mb-8 justify-self-center ${
         small ? "text-[46px] tracking-[-7px]" : "text-[56px] tracking-[-9px]"
-      } ${right ? "justify-self-end" : ""}`}
+      } md:justify-self-${position}`}
       style={{ wordSpacing: `${small ? "10px" : "15px"}` }}
     >
       {text}
-    </div>
+    </h3>
   );
 };
 

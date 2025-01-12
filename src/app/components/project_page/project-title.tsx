@@ -8,7 +8,7 @@ const ProjectTitle = () => {
   const t = useTranslations("ProjectPage");
 
   return (
-    <h3 className="text-3xl font-bold pt-20 mb-10">
+    <h3 className="text-3xl font-bold pt-20 mb-10 text-center md:text-start">
       {t(`projects.${pathname}.title`)}
     </h3>
   );

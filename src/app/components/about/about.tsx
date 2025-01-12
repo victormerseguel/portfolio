@@ -12,14 +12,14 @@ const About = () => {
 
   return (
     <div
-      className="bg-fixed bg-center bg-no-repeat bg-cover pb-[100px] rounded-b-[100px]"
+      className="bg-fixed bg-center bg-no-repeat bg-cover pb-[100px] rounded-b-[50px] md:rounded-b-[100px]"
       style={{ backgroundImage: 'url("/bg-grain.jpg")' }}
       id="about"
     >
-      <div className="w-full h-[100px] bg-background rounded-b-[100px] mb-16"></div>
+      <div className="w-full h-[100px] bg-background rounded-b-[50px] md:rounded-b-[100px] mb-16"></div>
       <div className="content relative">
-        <Titles text={t("title")} right />
-        <div className="flex w-full space-x-12">
+        <Titles text={t("title")} position="end" />
+        <div className="flex flex-col md:flex-row items-center md:items-start w-full gap-12">
           <div className="relative w-44 h-[calc(176px_*_1.33)] flex-shrink-0">
             <Image
               src={"/victor-profile-picture.jpg"}
@@ -34,7 +34,7 @@ const About = () => {
             <h4 className="uppercase font-bold mb-3 mt-12">
               {t("skills_title")}
             </h4>
-            <div className="grid grid-cols-3 space-y-2 text-lightGray mt-2 mb-12">
+            <div className="grid grid-cols-2 md:grid-cols-3 space-y-2 text-lightGray mt-2 mb-12">
               {skills.map((skill, i) => (
                 <SkillsItem
                   item={t(`skills_items.${skill}.icon`)}
@@ -54,7 +54,9 @@ const About = () => {
                 </span>
               ))}
             </p>
-            <Button text={t("button")} />
+            <div className="mx-auto md:ml-0 w-fit">
+              <Button text={t("button")} />
+            </div>
           </div>
         </div>
       </div>

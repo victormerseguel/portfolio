@@ -8,13 +8,15 @@ const Projects = () => {
   const t = useTranslations("Projects");
   return (
     <div className="content pt-14" id="projects">
-      <Titles text={t("title")} />
-      <div className="flex justify-between">
+      <Titles text={t("title")} position="start" />
+      <div className="flex justify-center gap-5 lg:justify-between flex-wrap">
         <ProjectCard src="/project-imc.jpg" alt="teste" />
         <ProjectCard src="/project-imc.jpg" alt="teste" />
         <ProjectCard src="/project-imc.jpg" alt="teste" />
       </div>
-      <Button text={t("button")} image={<NorthEastArrow />} />
+      <div className="mx-auto lg:ml-0 w-fit">
+        <Button text={t("button")} image={<NorthEastArrow />} />
+      </div>
     </div>
   );
 };

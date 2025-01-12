@@ -10,6 +10,7 @@ import Github2Icon from "../ui/icons/github-2-icon";
 import { Fragment } from "react";
 import { usePathname } from "@/i18n/routing";
 import Link from "next/link";
+// import ProjectImage from "./project-image";
 
 const ProjectInfo = () => {
   const pathname = usePathname().slice(1);
@@ -32,7 +33,7 @@ const ProjectInfo = () => {
           className="rounded-xl"
         />
       </div>
-      <div className="flex gap-24 mx-14 mt-20">
+      <div className="flex flex-col md:flex-row gap-24 md:mx-14 mt-20">
         <h4 className="text-3xl font-medium shrink-0">{t("about.title")}</h4>
         <div>
           <p className="text-sm font-normal leading-7">
@@ -45,7 +46,7 @@ const ProjectInfo = () => {
           <h6 className="mt-9 mb-4 text-xl font-semibold">
             {t("about.technologies")}
           </h6>
-          <div className="grid grid-cols-3 space-y-2 text-lightGray mt-2 mb-20">
+          <div className="grid grid-cols-2 md:grid-cols-3 space-y-2 text-lightGray mt-2 mb-20">
             {tech_project.map((item, i) => (
               <Fragment key={i}>
                 {item
@@ -62,7 +63,7 @@ const ProjectInfo = () => {
               </Fragment>
             ))}
           </div>
-          <div className="flex gap-6 justify-start">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-6 items-center md:justify-start">
             <Link href={t(`projects.${pathname}.projectURL`)} target="_blank">
               <Button text={t("about.buttons.1")} image={<NorthEastArrow />} />
             </Link>
@@ -76,6 +77,10 @@ const ProjectInfo = () => {
             </Link>
           </div>
         </div>
+        {/* <ProjectImage
+          src={t(`projects.${pathname}.image.img`)}
+          alt={t(`projects.${pathname}.title`)}
+        /> */}
       </div>
     </>
   );

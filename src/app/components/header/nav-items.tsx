@@ -7,7 +7,7 @@ const NavItems = () => {
   const links = Object.keys(en.Header.links);
 
   return (
-    <ul className="flex justify-evenly items-center h-12 w-[425px] rounded-full bg-background text-sm mr-auto">
+    <ul className="hidden md:flex justify-evenly items-center h-12 w-[340px] lg:w-[425px] rounded-full bg-background text-sm mr-auto">
       {links.map((link, i) => (
         <li
           className="uppercase font-semibold cursor-pointer hover:opacity-70"
