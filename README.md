@@ -19,9 +19,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Tasks
 
 [] - update all href links in header > nav
+[] - add links in links contacts json
 [] - write texts about each project
-[] - write texts in the about section
-[] - create exit function on project page on close button
+[] - write texts in the about section and header
+[x] - create exit function on project page on close button
+[] - create modal to expand project page with parallel routes and intercepting routes
 [] - create modal to expand image on project page
 [] - stops scrolling of background pages when project page is opened or image is expanded
-[] - create responsiveness
+[] - create expanding projects section in home
+[x] - create responsiveness
+[] - upload resume
+[x] - add react native to skills

@@ -32,6 +32,7 @@
       "typescript": { "text": "typescript", "icon": "typescript" },
       "react": { "text": "react js/ts", "icon": "react" },
       "next": { "text": "next.js", "icon": "next" },
+      "reactnative": { "text": "react native", "icon": "react" },
       "html": { "text": "html", "icon": "html" },
       "css": { "text": "css", "icon": "css" },
       "tailwind": { "text": "tailwind", "icon": "tailwind" },

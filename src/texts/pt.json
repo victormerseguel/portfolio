@@ -28,15 +28,16 @@
     },
     "skills_title": "Minhas skills",
     "skills_items": {
-      "javascript": { "text": "javascript", "icon": "javascript-icon.tsx" },
-      "typescript": { "text": "typescript", "icon": "typescript-icon.tsx" },
-      "react": { "text": "react js/ts", "icon": "react-icon.tsx" },
-      "next": { "text": "next.js", "icon": "next-icon.tsx" },
-      "html": { "text": "html", "icon": "html-icon.tsx" },
-      "css": { "text": "css", "icon": "css-icon.tsx" },
-      "tailwind": { "text": "tailwind", "icon": "tailwind-icon.tsx" },
-      "git": { "text": "git", "icon": "git-icon.tsx" },
-      "github": { "text": "github", "icon": "github-icon.tsx" }
+      "javascript": { "text": "javascript", "icon": "javascript" },
+      "typescript": { "text": "typescript", "icon": "typescript" },
+      "react": { "text": "react js/ts", "icon": "react" },
+      "next": { "text": "next.js", "icon": "next" },
+      "reactnative": { "text": "react native", "icon": "react" },
+      "html": { "text": "html", "icon": "html" },
+      "css": { "text": "css", "icon": "css" },
+      "tailwind": { "text": "tailwind", "icon": "tailwind" },
+      "git": { "text": "git", "icon": "git" },
+      "github": { "text": "github", "icon": "github" }
     },
     "another_title": "habilidade complementares",
     "another_items": {
