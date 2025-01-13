@@ -1,3 +1,4 @@
+"use client";
 type ButtonProps = {
   text: string;
   image?: React.ReactElement;

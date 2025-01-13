@@ -5,6 +5,7 @@ import React from "react";
 import IconLink from "./icon-link";
 import Button from "../ui/button";
 import en from "@/texts/en.json";
+import ProjectNavButton from "./project-nav-button";
 
 const ProjectNav = () => {
   const t = useTranslations("ProjectPage");
@@ -26,16 +27,20 @@ const ProjectNav = () => {
       </div>
       <div className="hidden md:flex gap-5">
         {links.map((link, i) => (
-          <Link href={"/"} key={i} className="hover:opacity-70">
+          <Link
+            href={"https://www.google.com"}
+            key={i}
+            className="hover:opacity-70"
+          >
             <IconLink icon={link} />
           </Link>
         ))}
         <div className="">
-          <Button text={t("nav.button")} dark />
+          <ProjectNavButton text={t("nav.button")} />
         </div>
       </div>
       <div className="md:hidden mt-0">
-        <Button text={t("nav.button")} dark />
+        <ProjectNavButton text={t("nav.button")} />
       </div>
     </nav>
   );

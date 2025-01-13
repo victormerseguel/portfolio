@@ -1,5 +1,4 @@
 import Footer from "@/app/components/footer/footer";
-import CloseButton from "@/app/components/ui/icons/close-button";
 
 import ProjectNav from "@/app/components/project_page/project-nav";
 import en from "@/texts/en.json";
@@ -8,7 +7,7 @@ import ProjectTitle from "@/app/components/project_page/project-title";
 import ProjectInfo from "@/app/components/project_page/project-info";
 import ProjectClose from "@/app/components/project_page/project-close";
 
-const Page = () => {
+const ProjectPage = ({ back }: { back?: boolean }) => {
   const a = useTranslations("About");
   const t = useTranslations("ProjectPage");
   const tech_list = Object.keys(en.About.skills_items);
@@ -18,7 +17,7 @@ const Page = () => {
 
   return (
     <div className="bg-background2">
-      <ProjectClose />
+      <ProjectClose back={back} />
       <div className="bg-background h-52 mt-[50px] rounded-t-xl">
         <div className="mx-3 md:content mb-28">
           <ProjectTitle />
@@ -36,4 +35,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ProjectPage;

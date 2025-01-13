@@ -20,6 +20,7 @@ const ProjectCard = ({ src, alt }: ProjectCardProps) => {
             alt={alt}
             className="rounded-[5px] border-none object-cover"
             fill
+            sizes="270px"
           />
         </div>
         <h4 className="font-bold uppercase text-lg tracking-tighter">Title</h4>

@@ -4,7 +4,7 @@ import { usePathname } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 
 const ProjectTitle = () => {
-  const pathname = usePathname().slice(1);
+  const pathname = usePathname().slice(1).replace("projects/", "");
   const t = useTranslations("ProjectPage");
 
   return (

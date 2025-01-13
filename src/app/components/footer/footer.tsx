@@ -20,6 +20,7 @@ const Footer = ({ background }: { background?: boolean }) => {
     <footer
       className={`bg-background rounded-t-[50px] md:rounded-t-[100px] bg-no-repeat bg-cover`}
       style={{ backgroundImage: `${backImage}` }}
+      id="footer"
     >
       <div className="content flex flex-col" id="contacts">
         <div className="mt-20">

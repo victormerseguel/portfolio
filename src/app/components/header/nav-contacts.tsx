@@ -3,6 +3,7 @@ import NavSelect from "./nav-select";
 import { useTranslations } from "next-intl";
 import en from "@/texts/en.json";
 import IconLink from "../project_page/icon-link";
+import { Fragment } from "react";
 
 const NavContacts = () => {
   const t = useTranslations("Header");
@@ -12,8 +13,8 @@ const NavContacts = () => {
     <div className="md:w-36 mx-auto md:mx-0 ">
       <ul className="flex flex-row gap-2 items-center md:flex-col md:gap-1.5 md:items-start text-sm ">
         {contacts.map((contact, i) => (
-          <>
-            <li key={i}>
+          <Fragment key={i}>
+            <li>
               <Link href={"/"} className="hidden md:block">
                 {t(`contacts.${contact}`)}
               </Link>
@@ -25,7 +26,7 @@ const NavContacts = () => {
                 <IconLink icon={contact} />
               </Link>
             </li>
-          </>
+          </Fragment>
         ))}
         <li className="hidden md:block">
           <NavSelect />

@@ -25,6 +25,7 @@ const About = () => {
               src={"/victor-profile-picture.jpg"}
               alt="Victor Merseguel"
               fill
+              sizes="176px"
               className="rounded-xl"
             />
           </div>

@@ -1,16 +1,20 @@
 "use client";
 import React from "react";
 import CloseButton from "../ui/icons/close-button";
+import { usePathname, useRouter } from "@/i18n/routing";
 
-const ProjectClose = () => {
+const ProjectClose = ({ back }: { back?: boolean }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+
   function handleClose() {
-    return console.log("hello!");
+    back ? router.back() : router.push("/");
   }
 
   return (
     <div
-      onClick={handleClose}
       className="flex justify-end fixed top-0 w-full z-40 bg-background2 cursor-zoom-out"
+      onClick={handleClose}
     >
       <CloseButton />
     </div>

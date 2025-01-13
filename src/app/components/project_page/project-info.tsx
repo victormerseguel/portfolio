@@ -1,27 +1,26 @@
 "use client";
 
-import Image from "next/image";
-import en from "@/texts/en.json";
+import { Fragment } from "react";
 import { useTranslations } from "next-intl";
+import { usePathname } from "@/i18n/routing";
+
+import Link from "next/link";
+import Image from "next/image";
+
+import en from "@/texts/en.json";
 import SkillsItem from "../ui/skills-item";
 import Button from "../ui/button";
 import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 import Github2Icon from "../ui/icons/github-2-icon";
-import { Fragment } from "react";
-import { usePathname } from "@/i18n/routing";
-import Link from "next/link";
-// import ProjectImage from "./project-image";
 
 const ProjectInfo = () => {
-  const pathname = usePathname().slice(1);
+  const pathname = usePathname().slice(1).replace("projects/", "");
 
-  const a = useTranslations("About");
   const t = useTranslations("ProjectPage");
-  const tech_list = Object.keys(en.About.skills_items);
-  const tech_project = Object.keys(
+  const tech_project =
     en.ProjectPage.projects[pathname as keyof typeof en.ProjectPage.projects]
-      .technologies
-  );
+      .technologies;
+  const tech_project_array = Object.keys(tech_project);
 
   return (
     <>
@@ -30,6 +29,7 @@ const ProjectInfo = () => {
           src={t(`projects.${pathname}.image.img`)}
           alt={t(`projects.${pathname}.title`)}
           fill
+          sizes="100%"
           className="rounded-xl"
         />
       </div>
@@ -47,19 +47,11 @@ const ProjectInfo = () => {
             {t("about.technologies")}
           </h6>
           <div className="grid grid-cols-2 md:grid-cols-3 space-y-2 text-lightGray mt-2 mb-20">
-            {tech_project.map((item, i) => (
+            {tech_project_array.map((item, i) => (
               <Fragment key={i}>
-                {item
-                  ? tech_list.map((skill, i) =>
-                      item === skill ? (
-                        <SkillsItem
-                          item={a(`skills_items.${skill}.icon`)}
-                          text={a(`skills_items.${skill}.text`)}
-                          key={i}
-                        />
-                      ) : null
-                    )
-                  : null}
+                {tech_project[item as keyof typeof tech_project] ? (
+                  <SkillsItem item={item} text={item} />
+                ) : null}
               </Fragment>
             ))}
           </div>
@@ -77,10 +69,6 @@ const ProjectInfo = () => {
             </Link>
           </div>
         </div>
-        {/* <ProjectImage
-          src={t(`projects.${pathname}.image.img`)}
-          alt={t(`projects.${pathname}.title`)}
-        /> */}
       </div>
     </>
   );
