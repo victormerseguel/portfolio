@@ -15,7 +15,11 @@ const NavContacts = () => {
         {contacts.map((contact, i) => (
           <Fragment key={i}>
             <li>
-              <Link href={"/"} className="hidden md:block">
+              <Link
+                href={t(`contacts_links.${contact}`)}
+                className="hidden md:block"
+                target="_blank"
+              >
                 {t(`contacts.${contact}`)}
               </Link>
               <Link

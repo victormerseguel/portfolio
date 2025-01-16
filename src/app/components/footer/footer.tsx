@@ -43,7 +43,9 @@ const Footer = ({ background }: { background?: boolean }) => {
         <div className="mx-auto space-x-4 mb-16">
           {contacts.map((contact, i) => (
             <Fragment key={i}>
-              <Link href={"/"}>{h(`contacts.${contact}`)}</Link>
+              <Link href={h(`contacts_links.${contact}`)} target="_blank">
+                {h(`contacts.${contact}`)}
+              </Link>
               {i < contacts.length - 1 ? <span>|</span> : null}
             </Fragment>
           ))}

@@ -10,6 +10,11 @@
       "github": "GitHub",
       "resume": "Resume"
     },
+    "contacts_links": {
+      "linkedin": "https://www.linkedin.com/in/victor-merseguel",
+      "github": "https://github.com/victormerseguel",
+      "resume": "https://www.victormerseguel.com/assets/resume_front-end.pdf"
+    },
     "title": "🖐🏼 Hi there, i'm Victor Merseguel,",
     "subtitle_1": "a front end developer,",
     "subtitle_2": "pixel perfect lover."
@@ -57,10 +62,10 @@
   },
   "ProjectPage": {
     "projects": {
-      "project_1": {
-        "image": { "img": "/project-fabuloso-1.jpg", "thumb": "" },
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur. At scelerisque semper mattis sed montes augue tristique sed dignissim. Ornare facilisis ipsum amet sit nibh vitae. Laoreet nunc gravida amet turpis pharetra pretium pulvinar. Velit nulla lectus pellentesque auctor. Nisi vitae nec condimentum ullamcorper quam sed urna lectus amet. Nisl in diam amet dignissim scelerisque quam mauris. Gravida amet turpis morbi integer vel. Ac viverra blandit non tempus consectetur nunc dictumst porta convallis. Rhoncus tempor aliquet ornare justo dui turpis.",
+      "luciana_castellano": {
+        "id": "luciana_castellano",
+        "title": "Luciana Castellano",
+        "description": "Created in Next.js 14 for SEO optimization and loading performance, this application was created to present the client's work and services in an elegant, organized, and efficient manner. With a design, also created by me, that sought a connection with the user, this application aims to serve as a showcase and search engine result for specialized mechanisms, as well as hosting sales pages and captures for eventual jobs offered by the client.\nWith great potential for scale, even with simple features, the choice of the Next.js 14 framework proved to be quite appropriate for future updates.",
         "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
         "technologies": {
           "javascript": true,
@@ -71,10 +76,321 @@
           "css": true,
           "tailwind": false,
           "git": true,
-          "github": true
+          "github": true,
+          "reactnative": false
+        },
+        "image": {
+          "img": "/project-lucianacastellano.jpg",
+          "thumb": "/project-lucianacastellano.jpg"
+        },
+        "projectURL": "https://luciana-castellano.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/luciana-castellano-next",
+        "show": true
+      },
+      "londe": {
+        "id": "londe",
+        "title": "L'Onde - Carole Mac Veigh",
+        "description": "This is an application created in React to promote and showcase the services offered by the client. With a modern yet feminine design, the application's functionalities are simple yet effective as well.\nBased on the one-page concept, there were important points of work for this application such as the possibility of language selection with the option stored in localStorage for future accesses, integration of forms with EmailJS, dynamic data feeding facilitating future changes and maintenance, as well as SEO techniques approaches like the insertion of the hreflang attribute for alternate routes for each language.\nAs an improvement goal, the intention is to eventually migrate the application to Next.js to improve SEO and further optimize its positioning for search engines.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": true,
+          "github": true,
+          "reactnative": false
+        },
+        "image": {
+          "img": "/project-carolemacveigh.jpg",
+          "thumb": "/project-carolemacveigh.jpg"
+        },
+        "projectURL": "https://www.guialonde.com",
+        "githubURL": "https://github.com/victormerseguel/londe-carolemacveigh",
+        "show": true
+      },
+      "videomaker_portfolio": {
+        "id": "videomaker_portfolio",
+        "title": "Videomaker Portfolio",
+        "description": "This project was the beginning of everything. After I started venturing into the programming world, my first personal project was creating a portfolio for my work as a videomaker. It began as a messy, self-taught project, simple in HTML, CSS, and JavaScript. Gradually, it evolved and organized itself, and today it's part of a larger portfolio, built in NEXT.js 14, utilizing the latest features available.\nSome interesting challenges included: creating a modal for each video, with Route Intercepting and Route Parallel so that each project could be viewed without losing existing navigation, while also providing a unique route for direct access to each project; using the native Image component for better loading performance and server-side caching, reducing total immediate requests when accessing the site, making them only when necessary; in addition to route organization, as this project is contained within a larger application, which includes the site we're currently on.\nThis is a project I hold dear because it's, as mentioned, the beginning of everything and at the same time a logbook of my journey and evolution in front-end development.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": true,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": true,
+          "github": true,
+          "reactnative": false
+        },
+        "image": {
+          "img": "/project-portfolio.jpg",
+          "thumb": "/project-portfolio.jpg"
         },
         "projectURL": "https://victormerseguel.com/film",
-        "githubURL": "https://github.com/victormerseguel/victor-portfolio"
+        "githubURL": "https://github.com/victormerseguel/victor-portfolio",
+        "show": true
+      },
+      "landing_page": {
+        "id": "landing_page",
+        "title": "Landing Page",
+        "description": "This project is a simple landing page, but it stands out in this portfolio because all the creation was done by me, from design to deployment.\nOriginally, this work was done within a larger project entirely built in React. However, due to confidentiality reasons, it was recreated for display purposes.\nThe choice to do it in React was made because it allowed for the creation of separate sections, enabling easy reorganization based on traffic testing and visitor behavior analysis.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-fabuloso.jpg",
+          "thumb": "/project-fabuloso.jpg"
+        },
+        "projectURL": "https://luciana-castellano.vercel.app/o-fabuloso-mundo",
+        "githubURL": "https://github.com/victormerseguel/o-fabuloso-mundo",
+        "show": true
+      },
+      "imc_calculator": {
+        "id": "imc_calculator",
+        "title": "IMC Calculator",
+        "description": "The purpose of this work was to exercise and study the similarities and differences between similar technologies and the functionalities of using libraries and frameworks.\nThe project's focus points were the manipulation of input states with basic validations, the logic of calculations, fetching data from a database, and styling according to the obtained results.\nIt is a rather simple project but very interesting for practicing basic concepts and understanding how these technologies work.\nThis project was carried out in two different ways, one in Vanilla JavaScript and the other in React",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": { "img": "/project-imc.jpg", "thumb": "/project-imc.jpg" },
+        "projectURL": "https://imc-calculator-react-psi.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/imc_calculator_react",
+        "show": true
+      },
+      "quiz_dev": {
+        "id": "quiz_dev",
+        "title": "Quiz DEV",
+        "description": "This project was created in React, and despite the option to use RouterDOM, it was chosen to work with conditional rendering through a Custom Hook that manages the states of a useReducer and provides a context through the useContext hook.\nThe goal of this work was to exercise knowledge in React using Hooks and explore their possibilities.\nAdditionally, the Quiz offers the choice of 3 themes, with hints for each question, options rendered in random order, visual representation of correct and incorrect answers, score counting, and a final result. All dynamically based on a data file that contains an array of objects with all the necessary information.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": { "img": "/project-quiz.jpg", "thumb": "/project-quiz.jpg" },
+        "projectURL": "https://quiz-app-react-kohl-phi.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/quiz_app_react",
+        "show": true
+      },
+      "iphone14_clone": {
+        "id": "iphone14_clone",
+        "title": "iPhone 14 - Page Clone",
+        "description": "Widely recognized for its design and the excellent user experience Apple offers, I decided to recreate, for study purposes, the page of the iPhone 14 (the latest at the time). Although it's a mostly static page, there were some challenges that I found interesting to tackle. The first one was achieving harmony among the elements on the page, a way to understand and study programming concepts based on references from major companies. The second challenge was attempting to create, with limited knowledge and without the use of any libraries, an infinite carousel that can be seen further down the page. With elements that rotate independently of each other and with interactivity with the mouse and user control.\nThe goal was to get as close as possible to the reference, but some elements needed to be replaced and adapted, such as the fonts used and the removal of some sections.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-iphone14.jpg",
+          "thumb": "/project-iphone14.jpg"
+        },
+        "projectURL": "https://iphone14-clone-vic.vercel.app/",
+        "githubURL": "https://github.com/victormerseguel/iphone14_clone",
+        "show": true
+      },
+      "password_generator": {
+        "id": "password_generator",
+        "title": "Password Generator",
+        "description": "This is a simple form that simulates a registration form where the user must enter their data and create a password. However, there is logic in this program that automatically generates a random password to assist the user.\nThis password generator has the possibility of customization, allowing the user to select the quantity of characters that will compose the password, whether there will be letters and/or numbers and/or special characters, making the project more comprehensive and complex in its logic.\nAdditionally, there is a button to copy the generated password to facilitate its use.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-password.jpg",
+          "thumb": "/project-password.jpg"
+        },
+        "projectURL": "https://password-generator-five-nu.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/password-generator",
+        "show": true
+      },
+      "animation": {
+        "id": "animation",
+        "title": "Animation",
+        "description": "This project is part of my studies in Creative Programming, where, through JavaScript, shapes, and automation, animations and digital art pieces are created.\nIt is a ve\nry fun and challenging work that originally uses Canvas Sketch Util in its creation, but for this portfolio, it was recreated in Vanilla JavaScript so that it could be deployed directly as code, without needing to be converted into a video.\nIn addition to creating shapes, this project adapts to different screen sizes, being recreated and generating proportional points for each size, always maintaining its visual harmony, regardless of the device being used.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-sketch1.jpg",
+          "thumb": "/project-sketch1.jpg"
+        },
+        "projectURL": "https://sketch01.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/sketch01",
+        "show": true
+      },
+      "qrcode_generator": {
+        "id": "qrcode_generator",
+        "title": "QR Code Generator",
+        "description": "This is one of the first JavaScript projects I had the opportunity to create in order to study and practice its functionalities. It integrates with an API that, based on text entered in an input, which can be a message or even a URL, generates a QR Code.\nIt is simple but quite interesting!",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-qrcode.jpg",
+          "thumb": "/project-qrcode.jpg"
+        },
+        "projectURL": "https://qrcode-generator-seven-virid.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/password-generator",
+        "show": true
+      },
+      "advanced_todolist": {
+        "id": "advanced_todolist",
+        "title": "Advanced ToDo List - Local Storage",
+        "description": "This is one of the classics of JavaScript projects where you can create a to-do list with the ability to mark those that have been completed, edit each existing one, and delete.\nHowever, unlike most projects, this one has some unique features such as the search field, allowing filtering of activities by titles or keywords; a filter to separate completed tasks, to-dos, and all of them; and saving to Local Storage, so that the data persists upon page reload and browser closure.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": { "img": "/project-todo.jpg", "thumb": "/project-todo.jpg" },
+        "projectURL": "https://advanced-todo-list-localstorage.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/advanced_todo_list_localstorage",
+        "show": true
+      },
+      "studio_espectro": {
+        "id": "studio_espectro",
+        "title": "Studio Espectro",
+        "description": "This is a very simple application, but with a unique characteristic. The design was created by a visual artist rather than a UI/UX designer, resulting in an interesting layout that is somewhat complex to translate into code, as it does not follow conventional market logic.\nThe challenge was to create clean code with proper semantics and best practices, while also ensuring it was pixel-perfect, without any distortions or alterations to the original artwork.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": true,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-studioespectro.jpg",
+          "thumb": "/project-studioespectro.jpg"
+        },
+        "projectURL": "https://studioespectro.com",
+        "githubURL": "https://github.com/studioespectro/studio_espectro",
+        "show": false
+      },
+      "boxshadow_generator": {
+        "id": "boxshadow_generator",
+        "title": "Box-Shadow Generator",
+        "description": "This is a utility project that is widely used in Front-End development, specifically for design creation.\nUsing sliders and a real-time viewer, we can change values of properties that are part of the Box-Shadow and see the results immediately, greatly facilitating the implementation of this property.\nThe result of the control change generates a rule that just needs to be copied and added to the style rule to be used in the final project.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-boxshadow.jpg",
+          "thumb": "/project-boxshadow.jpg"
+        },
+        "projectURL": "https://box-shadow-generator-gamma.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/box-shadow_generator",
+        "show": true
+      },
+      "instagramlogin_clone": {
+        "id": "instagramlogin_clone",
+        "title": "Instagram Login - Page Clone",
+        "description": "The purpose of this project is to study and analyze interfaces, not only for the code itself (which, in this case, is quite simple) but also for design concepts such as colors, layouts, sizes, and so on. Studying interfaces from major companies provides exposure to the work of top professionals and the best practices in the industry.\nIn this particular project, the focus is on HTML and CSS, with a small amount of JavaScript added to create the phone screen change in order to reproduce the original animation from that time.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": false,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": false,
+          "github": false
+        },
+        "image": {
+          "img": "/project-instagram.jpg",
+          "thumb": "/project-instagram.jpg"
+        },
+        "projectURL": "https://instagram-login-clone-vert.vercel.app",
+        "githubURL": "https://github.com/victormerseguel/instagram_login_clone",
+        "show": true
       }
     },
     "nav": {

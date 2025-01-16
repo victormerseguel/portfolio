@@ -24,7 +24,7 @@ const ProjectInfo = () => {
 
   return (
     <>
-      <div className="relative w-full pt-[51.6%]">
+      <div className="relative w-full pt-[57%]">
         <Image
           src={t(`projects.${pathname}.image.img`)}
           alt={t(`projects.${pathname}.title`)}
@@ -36,7 +36,7 @@ const ProjectInfo = () => {
       <div className="flex flex-col md:flex-row gap-24 md:mx-14 mt-20">
         <h4 className="text-3xl font-medium shrink-0">{t("about.title")}</h4>
         <div>
-          <p className="text-sm font-normal leading-7">
+          <p className="text-sm font-normal leading-7 whitespace-pre-wrap">
             {t(`projects.${pathname}.description`)}
           </p>
           <h6 className="mt-9 mb-3 text-xl font-semibold">{t("about.role")}</h6>

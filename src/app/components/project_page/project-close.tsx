@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
 import CloseButton from "../ui/icons/close-button";
-import { usePathname, useRouter } from "@/i18n/routing";
+import { useRouter } from "@/i18n/routing";
 
 const ProjectClose = ({ back }: { back?: boolean }) => {
   const router = useRouter();
-  const pathname = usePathname();
 
   function handleClose() {
     back ? router.back() : router.push("/");

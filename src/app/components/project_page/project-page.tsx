@@ -1,20 +1,11 @@
 import Footer from "@/app/components/footer/footer";
 
 import ProjectNav from "@/app/components/project_page/project-nav";
-import en from "@/texts/en.json";
-import { useTranslations } from "next-intl";
 import ProjectTitle from "@/app/components/project_page/project-title";
 import ProjectInfo from "@/app/components/project_page/project-info";
 import ProjectClose from "@/app/components/project_page/project-close";
 
 const ProjectPage = ({ back }: { back?: boolean }) => {
-  const a = useTranslations("About");
-  const t = useTranslations("ProjectPage");
-  const tech_list = Object.keys(en.About.skills_items);
-  const tech_project = Object.keys(
-    en.ProjectPage.projects.project_1.technologies
-  );
-
   return (
     <div className="bg-background2">
       <ProjectClose back={back} />
