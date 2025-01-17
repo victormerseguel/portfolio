@@ -13,7 +13,7 @@ import ProjectCard from "./project-card";
 export type ProjectsProps = typeof en.ProjectPage.projects;
 
 const Projects = () => {
-  const [allProjects, setAllProjects] = useState<boolean>(true);
+  const [allProjects, setAllProjects] = useState<boolean>(false);
   const t = useTranslations("Projects");
   const projectList = en.ProjectPage.projects;
   const projectListKeys = Object.keys(en.ProjectPage.projects);
