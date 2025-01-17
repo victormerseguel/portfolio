@@ -9,13 +9,13 @@ const ProjectCard = ({ project }: any) => {
   const p = useTranslations("ProjectPage");
 
   return (
-    <div className="my-12 hover:opacity-90">
+    <div className="my-12 hover:opacity-90 ">
       <Link href={`/projects/${project.id}`}>
-        <div className="w-[270px] h-[346px] relative">
+        <div className="w-[270px] h-[346px] relative rounded-md border overflow-hidden shadow-xl">
           <Image
             src={project.image.thumb}
             alt={project.title}
-            className="rounded-[5px] border-none object-cover"
+            className="border-none object-cover"
             fill
             sizes="270px"
           />

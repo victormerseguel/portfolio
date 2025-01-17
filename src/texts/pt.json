@@ -23,7 +23,7 @@
     "title": "Projectos",
     "projects": {},
     "project-link": "ver projeto",
-    "button": "Ver todos"
+    "button": { "view": "Ver todos", "hide": "Ver menos" }
   },
   "About": {
     "title": "Sobre mim",
@@ -80,36 +80,11 @@
           "reactnative": false
         },
         "image": {
-          "img": "/project-lucianacastellano.jpg",
-          "thumb": "/project-lucianacastellano.jpg"
+          "img": "/project-luciana-img.jpg",
+          "thumb": "/project-luciana-thumb.jpg"
         },
         "projectURL": "https://luciana-castellano.vercel.app",
         "githubURL": "https://github.com/victormerseguel/luciana-castellano-next",
-        "show": true
-      },
-      "londe": {
-        "id": "londe",
-        "title": "L'Onde - Carole Mac Veigh",
-        "description": "Esta é uma aplicação criada em React para a divulgação e exposição dos serviços oferecidos pela cliente. Com design moderno e ao mesmo tempo feminino, as funcionalidades da aplicação são simples, mas eficazes também.\nPartindo do conceito de one page, houveram pontos importantes de trabalho para esta aplicação como a possibilidade de seleção de língua com a opção armazenada em localStorage para futuros acessos, integração de formulários com EmailJS, alimentação dinâmica de dados facilitando futuras alterações e manutenção, além de abordagens de técnicas de SEO como a inserção do atributo hreflang para as alternativas de rotas para cada língua.\nComo meta de melhoramento, o intuito é futuramente migrar a aplicação para o Next.js para melhorar o SEO e otimizar ainda mais seu posicionamento para os mecanismos de busca.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
-        "technologies": {
-          "javascript": true,
-          "typescript": false,
-          "react": true,
-          "next": false,
-          "html": true,
-          "css": true,
-          "tailwind": false,
-          "git": true,
-          "github": true,
-          "reactnative": false
-        },
-        "image": {
-          "img": "/project-carolemacveigh.jpg",
-          "thumb": "/project-carolemacveigh.jpg"
-        },
-        "projectURL": "https://www.guialonde.com",
-        "githubURL": "https://github.com/victormerseguel/londe-carolemacveigh",
         "show": true
       },
       "videomaker_portfolio": {
@@ -130,11 +105,36 @@
           "reactnative": false
         },
         "image": {
-          "img": "/project-portfolio.jpg",
-          "thumb": "/project-portfolio.jpg"
+          "img": "/project-portfolio-img.jpg",
+          "thumb": "/project-portfolio-thumb.jpg"
         },
         "projectURL": "https://victormerseguel.com/film",
         "githubURL": "https://github.com/victormerseguel/victor-portfolio",
+        "show": true
+      },
+      "londe": {
+        "id": "londe",
+        "title": "L'Onde - Carole Mac Veigh",
+        "description": "Esta é uma aplicação criada em React para a divulgação e exposição dos serviços oferecidos pela cliente. Com design moderno e ao mesmo tempo feminino, as funcionalidades da aplicação são simples, mas eficazes também.\nPartindo do conceito de one page, houveram pontos importantes de trabalho para esta aplicação como a possibilidade de seleção de língua com a opção armazenada em localStorage para futuros acessos, integração de formulários com EmailJS, alimentação dinâmica de dados facilitando futuras alterações e manutenção, além de abordagens de técnicas de SEO como a inserção do atributo hreflang para as alternativas de rotas para cada língua.\nComo meta de melhoramento, o intuito é futuramente migrar a aplicação para o Next.js para melhorar o SEO e otimizar ainda mais seu posicionamento para os mecanismos de busca.",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "technologies": {
+          "javascript": true,
+          "typescript": false,
+          "react": true,
+          "next": false,
+          "html": true,
+          "css": true,
+          "tailwind": false,
+          "git": true,
+          "github": true,
+          "reactnative": false
+        },
+        "image": {
+          "img": "/project-londe-img.jpg",
+          "thumb": "/project-londe-thumb.jpg"
+        },
+        "projectURL": "https://www.guialonde.com",
+        "githubURL": "https://github.com/victormerseguel/londe-carolemacveigh",
         "show": true
       },
       "landing_page": {
@@ -154,8 +154,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-fabuloso.jpg",
-          "thumb": "/project-fabuloso.jpg"
+          "img": "/project-fabuloso-img.jpg",
+          "thumb": "/project-fabuloso-thumb.jpg"
         },
         "projectURL": "https://luciana-castellano.vercel.app/o-fabuloso-mundo",
         "githubURL": "https://github.com/victormerseguel/o-fabuloso-mundo",
@@ -177,7 +177,10 @@
           "git": false,
           "github": false
         },
-        "image": { "img": "/project-imc.jpg", "thumb": "/project-imc.jpg" },
+        "image": {
+          "img": "/project-imc-img.jpg",
+          "thumb": "/project-imc-thumb.jpg"
+        },
         "projectURL": "https://imc-calculator-react-psi.vercel.app",
         "githubURL": "https://github.com/victormerseguel/imc_calculator_react",
         "show": true
@@ -198,7 +201,10 @@
           "git": false,
           "github": false
         },
-        "image": { "img": "/project-quiz.jpg", "thumb": "/project-quiz.jpg" },
+        "image": {
+          "img": "/project-quiz-img.jpg",
+          "thumb": "/project-quiz-thumb.jpg"
+        },
         "projectURL": "https://quiz-app-react-kohl-phi.vercel.app",
         "githubURL": "https://github.com/victormerseguel/quiz_app_react",
         "show": true
@@ -220,8 +226,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-iphone14.jpg",
-          "thumb": "/project-iphone14.jpg"
+          "img": "/project-iphone14-img.jpg",
+          "thumb": "/project-iphone14-thumb.jpg"
         },
         "projectURL": "https://iphone14-clone-vic.vercel.app/",
         "githubURL": "https://github.com/victormerseguel/iphone14_clone",
@@ -244,8 +250,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-password.jpg",
-          "thumb": "/project-password.jpg"
+          "img": "/project-password-img.jpg",
+          "thumb": "/project-password-thumb.jpg"
         },
         "projectURL": "https://password-generator-five-nu.vercel.app",
         "githubURL": "https://github.com/victormerseguel/password-generator",
@@ -268,8 +274,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-sketch1.jpg",
-          "thumb": "/project-sketch1.jpg"
+          "img": "/project-animation-img.jpg",
+          "thumb": "/project-animation-thumb.jpg"
         },
         "projectURL": "https://sketch01.vercel.app",
         "githubURL": "https://github.com/victormerseguel/sketch01",
@@ -292,8 +298,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-qrcode.jpg",
-          "thumb": "/project-qrcode.jpg"
+          "img": "/project-qrcode-img.jpg",
+          "thumb": "/project-qrcode-thumb.jpg"
         },
         "projectURL": "https://qrcode-generator-seven-virid.vercel.app",
         "githubURL": "https://github.com/victormerseguel/password-generator",
@@ -361,8 +367,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-boxshadow.jpg",
-          "thumb": "/project-boxshadow.jpg"
+          "img": "/project-boxshadow-img.jpg",
+          "thumb": "/project-boxshadow-thumb.jpg"
         },
         "projectURL": "https://box-shadow-generator-gamma.vercel.app",
         "githubURL": "https://github.com/victormerseguel/box-shadow_generator",
@@ -385,8 +391,8 @@
           "github": false
         },
         "image": {
-          "img": "/project-instagram.jpg",
-          "thumb": "/project-instagram.jpg"
+          "img": "/project-instagram-img.jpg",
+          "thumb": "/project-instagram-thumb.jpg"
         },
         "projectURL": "https://instagram-login-clone-vert.vercel.app",
         "githubURL": "https://github.com/victormerseguel/instagram_login_clone",

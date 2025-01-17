@@ -26,10 +26,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 [-] - create modal to expand project page with parallel routes and intercepting routes
 [] - create modal to expand image on project page
 [] - stops scrolling of background pages when project page is opened or image is expanded
-[] - create expanding projects section in home
+[x] - create expanding projects section in home
 [x] - create responsiveness
 [] - upload resume
 [x] - add react native to skills
 [x] - url landing page
-[] - projects thumbs
-[] - projects images bigger size
+[x] - projects thumbs
+[x] - projects images

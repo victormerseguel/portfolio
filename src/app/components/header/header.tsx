@@ -20,7 +20,7 @@ const Header = () => {
             width={96}
             height={96}
           />
-          <h1 className="text-xl md:text-2xl font-light mb-7 leading-7">
+          <h1 className="text-xl md:text-2xl font-light mt-7 leading-7">
             {t("subtitle_1")}
             <br />
             {t("subtitle_2")}

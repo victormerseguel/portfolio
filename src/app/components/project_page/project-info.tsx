@@ -24,15 +24,15 @@ const ProjectInfo = () => {
 
   return (
     <>
-      <div className="relative w-full pt-[57%]">
+      <div className="relative w-full pt-[57%] border rounded-xl overflow-hidden shadow-xl">
         <Image
           src={t(`projects.${pathname}.image.img`)}
           alt={t(`projects.${pathname}.title`)}
           fill
           sizes="100%"
-          className="rounded-xl"
         />
       </div>
+
       <div className="flex flex-col md:flex-row gap-24 md:mx-14 mt-20">
         <h4 className="text-3xl font-medium shrink-0">{t("about.title")}</h4>
         <div>
