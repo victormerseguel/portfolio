@@ -1,0 +1,45 @@
+.footer {
+  background-color: #1b1b1b;
+  font-size: 9pt;
+  width: 960px;
+  position: fixed;
+  bottom: 0;
+  padding: 5px 0;
+}
+
+.footer h3 {
+  text-transform: uppercase;
+}
+
+.footer div:first-of-type {
+  display: inline-block;
+  width: 49.3%;
+  text-align: left;
+}
+
+.footer div:last-of-type {
+  width: 49.3%;
+  display: inline-block;
+  text-align: right;
+  right: 0;
+}
+
+@media (max-width: 960px) {
+  .footer {
+    width: 100%;
+    left: 0;
+    font-size: 6pt;
+  }
+
+  .footer div:first-of-type {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer div:last-of-type {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,32 @@
+.about {
+  width: 70%;
+  background-color: #e1dedb;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 80px auto 40px auto;
+}
+
+.about h2 {
+  font-size: 30pt;
+  font-weight: 300;
+  color: #343434;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: solid #343434 1px;
+}
+
+.about p {
+  letter-spacing: 1px;
+  line-height: 25pt;
+  font-weight: 300;
+  color: #343434;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 960px) {
+  .about {
+    width: 100%;
+  }
+}

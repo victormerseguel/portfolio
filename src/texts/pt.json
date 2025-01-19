@@ -13,7 +13,7 @@
     "contacts_links": {
       "linkedin": "https://www.linkedin.com/in/victor-merseguel",
       "github": "https://github.com/victormerseguel",
-      "resume": "https://www.victormerseguel.com/assets/resume_front-end.pdf"
+      "resume": "/assets/pt_resume_front-end_ATS.pdf"
     },
     "title": "🖐🏼 Olá, eu sou o Victor Merseguel,",
     "subtitle_1": "um desenvolvedor front end,",
@@ -28,8 +28,10 @@
   "About": {
     "title": "Sobre mim",
     "text": {
-      "p1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi libero beatae quo suscipit impedit perferendis necessitatibus expedita et est, rerum non, aliquid, in voluptate dicta vitae deserunt! Voluptatem, fugit autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam perspiciatis, culpa corporis quasi, ex expedita sit hic assumenda quas quisquam iure. Dolore libero repudiandae nam quam reiciendis vero animi? Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      "p1": "Sou desenvolvedor Front-End com uma combinação única de habilidades técnicas e um olhar artístico refinado. Minha jornada começou no universo das artes, onde me formei em Artes Cênicas e atuei como cenógrafo e aderecista teatral, conquistando importantes prêmios na área. Essa experiência moldou minha atenção aos detalhes e minha capacidade de criar soluções visuais que equilibram forma e funcionalidade – uma base que considero essencial para o desenvolvimento de interfaces.",
+      "p2": "Minha introdução ao mundo da tecnologia foi gradual e natural. Primeiro, como hobby, explorei a programação por meio do Arduino, incorporando-o ao meu trabalho artístico. Mais tarde, ao trabalhar com produção audiovisual, aprimorei minha lógica e domínio de ferramentas tecnológicas, habilidades que encontrei novamente ao mergulhar no desenvolvimento Front-End.",
+      "p3": "Meu interesse pelo Front-End se consolidou ao acompanhar o desenvolvimento de um site para minha esposa, que despertou minha paixão por tecnologias como React e JavaScript. Desde então, transformei a curiosidade inicial em uma profissão. Hoje, sou especialista em HTML5, CSS3, JavaScript, React, React Native, Next.js, Git e GitHub, com experiência na criação de interfaces funcionais, intuitivas e visualmente impactantes.",
+      "p4": "Com mais de 7 anos de experiência em design, produção audiovisual e marketing digital, trago para os projetos uma abordagem criativa e orientada à experiência do usuário. Proativo, dinâmico e organizado, estou sempre em busca de soluções inovadoras e eficazes, combinando lógica e estética para transformar ideias em realidade."
     },
     "skills_title": "Minhas skills",
     "skills_items": {
@@ -66,7 +68,7 @@
         "id": "luciana_castellano",
         "title": "Luciana Castellano",
         "description": "Criado em Next.js 14 para otimização de SEO e performance de carregamento, esta aplicação foi criada para a apresentação dos trabalhos e serviços oferecidos pela cliente de forma elegante, organizada e eficiente. Com um design, também criado por mim, que buscasse uma conexão com o usuário, esta aplicação pretende servir de vitrine e resultado de buscas pelos mecanismos especializados, além de hospedar paginas de vendas e capturas para eventuais trabalhos oferecidos pela cliente.\nCom grande potencial de escala, mesmo que com funcionalidades simples, a escolha do framework Next.js 14 se mostrou bastante acertada para atualizações futuras.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -91,7 +93,7 @@
         "id": "videomaker_portfolio",
         "title": "Portfólio Videomaker",
         "description": "Este projeto foi o início de tudo. Depois que comecei a me aventurar no mundo da programação, o meu primeiro projeto pessoal foi a criação de um portfólio para meus trabalhos como videomaker. Começou com um projeto bagunçado, autodidata, simples em HTML, CSS e JavaScript. Aos poucos foi se transformando, se organizando e hoje faz parte de um portfólio maior, feito em NEXT.js 14, utilizando as últimas funcionalidades que ali se apresentam no momento.\nAlguns desafios interessantes foram: criar um modal para cada vídeo, com Route Intercepting e Route Parallel para que ao mesmo tempo fosse possível visualizar cada projeto sem perder a navegação existente, mas também fornecer uma rota única para que cada projeto fosse acessado diretamente; a utilização do componente nativo Image para uma melhor performance de carregamento e cache em servidor, diminuindo o total das requisições imediatas ao acessar o site, fazendo-as apenas quando necessário; além da organização de rotas, uma vez que este projeto está contido numa aplicação maior, que inclui este site em que estamos no momento.\nEste é um projeto que tenho muito carinho por ser, como mencionado, o início de tudo e ao mesmo tempo um diário de bordo de minha trajetória e evolução no front-end.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -116,7 +118,7 @@
         "id": "londe",
         "title": "L'Onde - Carole Mac Veigh",
         "description": "Esta é uma aplicação criada em React para a divulgação e exposição dos serviços oferecidos pela cliente. Com design moderno e ao mesmo tempo feminino, as funcionalidades da aplicação são simples, mas eficazes também.\nPartindo do conceito de one page, houveram pontos importantes de trabalho para esta aplicação como a possibilidade de seleção de língua com a opção armazenada em localStorage para futuros acessos, integração de formulários com EmailJS, alimentação dinâmica de dados facilitando futuras alterações e manutenção, além de abordagens de técnicas de SEO como a inserção do atributo hreflang para as alternativas de rotas para cada língua.\nComo meta de melhoramento, o intuito é futuramente migrar a aplicação para o Next.js para melhorar o SEO e otimizar ainda mais seu posicionamento para os mecanismos de busca.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -141,7 +143,7 @@
         "id": "landing_page",
         "title": "Página de Captura",
         "description": "Este projeto é uma landing page simples, mas que neste portfólio se destaca por toda a criação ter sido realizada por mim; desde o design até o deploy.\nOriginalmente este trabalho foi realizado dentro de um projeto maior todo construído em React, mas que, por questões de confidencialidade, foi recriado para poder ser exibido.\nA opção de faze-lo em React se deu pela possibilidade de criar as sessões separadas permitindo a reorganização de forma simples de acordo com os testes de tráfego e análises de comportamentos de visitas.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -165,7 +167,7 @@
         "id": "imc_calculator",
         "title": "Calculadora IMC em React",
         "description": "Este projeto foi realizado de duas maneiras diferentes, uma em Vanilla JavaScript e outro em React.js.\nO propósito deste trabalho foi exercitar e estudar as semelhanças e diferenças de tecnologias semelhantes e as funcionalidades do uso de Libs e Frameworks.\nOs pontos de foco do projeto foram a manipulação de estados de inputs com validações básicas, a lógica do cálculo, o retorno à partir de uma base de dados e a estilização de acordo com o resultado obtido.\nÉ um projeto bastante simples, mas muito interessante para exercitar conceitos básicos e o funcionamento das tecnolog",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -189,7 +191,7 @@
         "id": "quiz_dev",
         "title": "Quiz DEV",
         "description": "Este projeto foi criado em React e, apesar da possibilidade de utilizar RouterDOM, neste optou-se por trabalhar com renderização condicional por meio de um Custom Hook que gerencia os estados de um useReducer além de prover um contexto a partir do hook useContext.\nO objetivo deste trabalho foi exercitar os conhecimentos em React à partir dos Hooks e explorar suas possibilidades.\nAlém disso, o Quiz proporciona a possibilidade de escolha entre 3 temas, com ajudas para cada questão, opções renderizadas em ordem aleatória, representação visual de acertos e erros, contagem de acertos e um resultado final. Tudo de forma dinâmica baseado em um arquivo de dados que contem um array de objetos com todas as informações necessárias.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -213,7 +215,7 @@
         "id": "iphone14_clone",
         "title": "iPhone 14 - Page Clone",
         "description": "Reconhecidamente pelo design e pela ótima experiência que a Apple oferece para seus usuários, decidi recriar com finalidades de estudo a página do iPhone 14 (o mais recente à época). Apesar de ser uma página basicamente estática, haviam alguns desafios que achei interessante de encarar. O primeiro é a harmonia entre os elementos contidos na página, uma forma de entender e estudar conceitos de programação em cima de referências de grandes empresas, o segundo foi a tentativa de criar, com pouco conhecimento e sem a ajuda de nenhuma biblioteca, um carrossel infinito que pode ser visto mais ao final da página. Com elementos que rodam independente uns dos outros e com interatividade com o mouse e controle do usuário.\nO propósito foi chegar o mais próximo possível da referência, mas alguns elementos precisaram ser substituídos e adaptados como as fontes utilizadas e a supressão de algumas sessões.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -237,7 +239,7 @@
         "id": "password_generator",
         "title": "Gerador de Senhas",
         "description": "Este é um formulário simples, que simula um formulário de inscrição onde o usuário deve cadastrar seus dados e criar uma senha, porém, há uma lógica neste programa que cria um gerador de senhas aleatórias de forma automática para auxiliar o usuário. \nMas este gerador de senhas tem a possibilidade de customização, permitindo ao usuário selecionar a quantidade de caracteres que comporão a senha, se existirão letras e/ou números e/ou caracteres especiais, tornando assim o projeto mais completo e complexo em sua lógica. \nAlém disso, há também um botão para que possa ser copiada a senha gerada para facilitar sua utilização.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -261,7 +263,7 @@
         "id": "animation",
         "title": "Animação",
         "description": "Este projeto faz parte dos meu estudo em Programação Criativa, onde, por meio de JavaScript, formas e automação, são criadas animações e peças de arte digital.\nÉ um trabalho muito divertido e desafiador que originalmente utiliza Canvas Sketch Util em sua criação mas que para este portfólio foi recriado em Vanilla JavaScript para que pudesse ser feito seu Deploy diretamente em código, sem que precisasse ser convertido em vídeo. \nPara além da criação das formas, este projeto conta com uma adaptação aos diferentes tamanhos de tela, sendo recriado e gerando pontos proporcionais a cada tamanho, mantendo sempre sua harmonia visual, independente do dispositivo que esteja sendo utilizado.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -285,7 +287,7 @@
         "id": "qrcode_generator",
         "title": "Gerador de QR Code",
         "description": "Este trata-se de um dos primeiros projetos de JavaScripts que tive a oportunidade de criar com o intuito de estudada e praticar suas funcionalidades. Ele se integra a uma API que, a partir de um texto inserido em um input, que pode ser uma mensagem ou mesmo uma url, gera um QR Code.\nÉ simples, mas bastante interessante!",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -309,7 +311,7 @@
         "id": "advanced_todolist",
         "title": "Lista de Tarefas Avançada - Local Storage",
         "description": "Este é um dos clássicos dos projetos em JavaScript em que se pode criar uma lista de tarefas com a possibilidade de marcar as que já foram realizada, editar cada uma existente e excluir.\nPorém, diferentemente da maioria dos projetos, este tem alguns diferenciais que são o campo de busca, possibilitando filtrar as atividades por meus de títulos ou palavras chaves; filtro para separar tarefas concluídas, a serem realizadas e todas elas; além do salvamento na Local Storage, para que os dados persistam ao recarregamento de página e fechamento do navegador.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -330,7 +332,7 @@
         "id": "studio_espectro",
         "title": "Studio Espectro",
         "description": "Trata-se de uma aplicação extremamente simples mas com uma peculiaridade. Este design foi criado por uma artista plástica, não por uma UI/UX Designer, o que resultou num layout bastante interessante, mas um tanto complexo de se traduzir em códigos porque não segue uma lógica conhecida no mercado.\nO desafio então foi criar um código limpo, com semântica e boas práticas, mas que também fosse pixel-perfect, sem que houvessem distorções ou alterações na arte original.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -354,7 +356,7 @@
         "id": "boxshadow_generator",
         "title": "Gerador de Box-Shadow",
         "description": "Este é um projeto utilitário que tem muito uso no desenvolvimento Front-End, mais especificamente para criação de designs.\nA partir de controles deslizantes e um visualizador em tempo real, podemos alterar valores das propriedades que fazem parte do Box-Shadow e vermos os resultados imediatamente, facilitando e muito a implementação desta propriedade.\nO resultado da alteração dos controles gera uma regra que basta ser copiada e adicionada à regra de estilos para que possa ser utilizada no projeto final.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -378,7 +380,7 @@
         "id": "instagramlogin_clone",
         "title": "Login do Instagram - Page Clone",
         "description": "Este projeto tem como finalidade o estudo e análise de interfaces para estudar não apenas o código em si (que neste caso é bastante simples), mas também conceitos de design como cores, disposições, tamanhos etc., visto que o estudo a partir de interfaces de grandes empresas proporciona o contato com trabalho de grandes profissionais e as melhores práticas existentes no mercado.\nNeste trabalho específicamente o foco está no HTML e CSS, com uma pequena inserção JavaScript para criar a mudança de tela do telefone afim de reproduzir a animação original da época.",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sapiente tempora sint porro nisi maxime quisquam obcaecati, necessitatibus excepturi doloremque cum quas laborum voluptate sunt. Aliquam nam blanditiis mollitia.",
+        "role": "",
         "technologies": {
           "javascript": true,
           "typescript": false,
