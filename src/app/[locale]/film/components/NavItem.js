@@ -9,8 +9,7 @@ const NavItem = ({ label, id }) => {
   const { currentMenu, setCurrentMenu } = useContext(Context);
 
   const handleClickMenu = ({ target }) => {
-    target.id === "" ? null : setCurrentMenu(target.id);
-    return;
+    if (target.id !== "") setCurrentMenu(target.id);
   };
 
   return (

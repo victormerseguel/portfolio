@@ -8,10 +8,11 @@ const Page = () => {
   const languages = window.navigator.languages;
 
   useEffect(() => {
-    language.includes("pt") || languages.includes("pt")
-      ? router.push("/pt/dev")
-      : router.push("/en/dev");
-    return;
+    if (language.includes("pt") || languages.includes("pt")) {
+      router.push("/pt/dev");
+    } else {
+      router.push("/en/dev");
+    }
   }, []);
   return <></>;
 };

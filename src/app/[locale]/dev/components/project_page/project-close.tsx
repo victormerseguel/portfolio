@@ -7,8 +7,11 @@ const ProjectClose = ({ back }: { back?: boolean }) => {
   const router = useRouter();
 
   const handleClose = () => {
-    //prettier-ignore
-    back ? (router.back()) : (router.push("/dev/"));
+    if (back) {
+      router.back();
+    } else {
+      router.push("/dev/");
+    }
   };
 
   return (

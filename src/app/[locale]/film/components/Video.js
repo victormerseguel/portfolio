@@ -14,8 +14,11 @@ const Video = ({ projectId, modal }) => {
 
   const handleClickOut = () => {
     document.body.style.overflow = "scroll";
-    modal ? router.back() : router.push("/film/works");
-    return;
+    if (modal) {
+      router.back();
+    } else {
+      router.push("/film/works");
+    }
   };
 
   return (
