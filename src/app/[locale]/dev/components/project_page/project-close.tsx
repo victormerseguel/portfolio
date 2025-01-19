@@ -6,10 +6,9 @@ import { useRouter } from "@/i18n/routing";
 const ProjectClose = ({ back }: { back?: boolean }) => {
   const router = useRouter();
 
-  function handleClose() {
+  const handleClose = () => {
     back ? router.back() : router.push("/dev/");
-    return;
-  }
+  };
 
   return (
     <div

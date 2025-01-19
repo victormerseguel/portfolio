@@ -3,17 +3,10 @@ import Image from "next/image";
 import React from "react";
 import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 import { Link } from "@/i18n/routing";
-import en from "@/texts/en.json";
+import { ProjectsProps } from "./projects";
 
-const enObject = en.ProjectPage.projects;
-const enObjectArray = Object.keys(enObject);
-const enObjectType = enObject[enObjectArray[0] as keyof typeof enObject];
-
-type ProjectCardProps = {
-  project: typeof enObjectType;
-};
-
-const ProjectCard = ({ project }: ProjectCardProps) => {
+const ProjectCard = ({ project }: { project: ProjectsProps }) => {
+  console.log(project);
   const t = useTranslations("Projects");
   const p = useTranslations("ProjectPage");
 

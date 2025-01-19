@@ -10,7 +10,11 @@ import Button from "../ui/button";
 import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 import ProjectCard from "./project-card";
 
-export type ProjectsProps = typeof en.ProjectPage.projects;
+const enObject = en.ProjectPage.projects;
+const enIndex = Object.keys(en.ProjectPage.projects);
+const enType = enObject[enIndex[0] as keyof typeof enObject];
+
+export type ProjectsProps = typeof enType;
 
 const Projects = () => {
   const [allProjects, setAllProjects] = useState<boolean>(false);

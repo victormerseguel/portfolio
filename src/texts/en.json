@@ -153,7 +153,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-fabuloso-img.jpg",
@@ -177,7 +178,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-imc-img.jpg",
@@ -201,7 +203,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-quiz-img.jpg",
@@ -225,7 +228,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-iphone14-img.jpg",
@@ -249,7 +253,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-password-img.jpg",
@@ -273,7 +278,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-animation-img.jpg",
@@ -297,7 +303,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-qrcode-img.jpg",
@@ -321,7 +328,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-todo-img.jpg",
@@ -345,7 +353,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-studioespectro.jpg",
@@ -369,7 +378,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-boxshadow-img.jpg",
@@ -393,7 +403,8 @@
           "css": true,
           "tailwind": false,
           "git": false,
-          "github": false
+          "github": false,
+          "reactnative": false
         },
         "image": {
           "img": "/project-instagram-img.jpg",
