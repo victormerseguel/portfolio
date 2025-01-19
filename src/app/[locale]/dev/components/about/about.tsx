@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl";
+
 import Titles from "../ui/titles";
 import Image from "next/image";
-import Button from "../ui/button";
 import SkillsItem from "../ui/skills-item";
-import en from "@/texts/en.json";
-import Link from "next/link";
 import ResumeButton from "./resume-button";
+
+import en from "@/texts/en.json";
 
 const About = () => {
   const t = useTranslations("About");

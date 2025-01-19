@@ -11,6 +11,7 @@ const Page = () => {
     language.includes("pt") || languages.includes("pt")
       ? router.push("/pt/dev")
       : router.push("/en/dev");
+    return;
   }, []);
   return <></>;
 };

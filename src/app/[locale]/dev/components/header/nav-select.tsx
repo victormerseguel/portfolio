@@ -1,6 +1,6 @@
 "use client";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import React, { useEffect } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import React from "react";
 
 const NavSelect = () => {
   const router = useRouter();

@@ -10,7 +10,9 @@ const NavItem = ({ label, id }) => {
 
   const handleClickMenu = ({ target }) => {
     target.id === "" ? null : setCurrentMenu(target.id);
+    return;
   };
+
   return (
     <li
       className={`${style.menu} ${currentMenu === id ? style.currentMenu : ""}`}

@@ -8,6 +8,7 @@ const ProjectClose = ({ back }: { back?: boolean }) => {
 
   function handleClose() {
     back ? router.back() : router.push("/dev/");
+    return;
   }
 
   return (

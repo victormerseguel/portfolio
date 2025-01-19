@@ -1,5 +1,3 @@
-import { useTranslations } from "next-intl";
-
 type TitlesProps = {
   text: string;
   small?: boolean;
@@ -7,10 +5,6 @@ type TitlesProps = {
 };
 
 const Titles = ({ small, text, position }: TitlesProps) => {
-  const t = useTranslations("Header");
-  const sm = 46;
-  const def = 56;
-
   return (
     <h3
       className={`uppercase font-black md:mb-8 justify-self-center ${

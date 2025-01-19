@@ -12,9 +12,10 @@ const Video = ({ projectId, modal }) => {
   const closebtn = "/assets/img/close.png";
   const id = projectId;
 
-  const handleClickOut = (e) => {
+  const handleClickOut = () => {
     document.body.style.overflow = "scroll";
     modal ? router.back() : router.push("/film/works");
+    return;
   };
 
   return (

@@ -12,7 +12,7 @@ const Works = () => {
 
   useEffect(() => {
     document.body.style.overflow = "scroll";
-    orderedFiles.forEach((item, idx) => {
+    orderedFiles.forEach(() => {
       mouseOverItems.push(false);
     });
   }, []);

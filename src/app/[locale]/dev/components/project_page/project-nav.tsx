@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import IconLink from "./icon-link";
-import Button from "../ui/button";
 import en from "@/texts/en.json";
 import ProjectNavButton from "./project-nav-button";
 

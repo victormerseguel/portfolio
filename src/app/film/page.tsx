@@ -11,6 +11,7 @@ const Page = () => {
     language.includes("pt") || languages.includes("pt")
       ? router.push("/pt/film")
       : router.push("/en/film");
+    return;
   }, []);
   return <></>;
 };
