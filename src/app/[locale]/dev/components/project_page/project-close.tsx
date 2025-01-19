@@ -7,17 +7,13 @@ const ProjectClose = ({ back }: { back?: boolean }) => {
   const router = useRouter();
 
   const handleClose = () => {
-    if (back) {
-      router.back();
-    } else {
-      router.push("/dev/");
-    }
+    back ? router.back() : router.push("/dev/");
   };
 
   return (
     <div
       className="flex justify-end fixed top-0 w-full z-40 bg-background2 cursor-zoom-out"
-      onClick={handleClose}
+      onClick={() => handleClose()}
     >
       <CloseButton />
     </div>
