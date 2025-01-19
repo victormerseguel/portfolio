@@ -1,4 +1,4 @@
-import Video from "../../../../components/Video";
+import Video from "../../../../../components/Video";
 
 const VideoPageIntercepted = async ({ params }) => {
   const par = await params;
