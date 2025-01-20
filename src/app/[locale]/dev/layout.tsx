@@ -16,11 +16,9 @@ export const metadata: Metadata = {
 
 export default async function LocaleLayout({
   children,
-  modal,
   params,
 }: {
   children: React.ReactNode;
-  modal: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
@@ -36,7 +34,6 @@ export default async function LocaleLayout({
     <html lang={locale} className="scroll-smooth focus:scroll-auto">
       <body className={dmSans.className}>
         <NextIntlClientProvider messages={messages}>
-          {modal}
           {children}
         </NextIntlClientProvider>
       </body>
