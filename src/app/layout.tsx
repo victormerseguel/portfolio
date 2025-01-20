@@ -1,6 +1,9 @@
 export const metadata = {
-  title: "Victor Mersegul",
+  title: "Victor Merseguel",
   description: "",
+  icons: {
+    icon: "/victoricon.ico",
+  },
 };
 
 export default function RootLayout({

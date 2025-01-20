@@ -11,9 +11,6 @@ import { ContextProvider } from "./hooks/ContextFilm";
 export const metadata = {
   title: "Victor Films",
   description: "",
-  icons: {
-    icon: "/victoricon.ico",
-  },
 };
 
 export default async function Layout({ children, params }) {

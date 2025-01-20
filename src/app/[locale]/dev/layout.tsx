@@ -12,9 +12,6 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Victor ⎯ Frontend Developer",
-  icons: {
-    icon: "/victoricon.ico",
-  },
 };
 
 export default async function LocaleLayout({
