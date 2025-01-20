@@ -12,7 +12,7 @@ import ProjectCard from "./project-card";
 
 const enObject = en.ProjectPage.projects;
 const enIndex = Object.keys(en.ProjectPage.projects);
-const enType = enObject[enIndex[0] as keyof typeof enObject];
+const enType = enObject[enIndex[0] as keyof typeof enObject]; // eslint-disable-line @typescript-eslint/no-explicit-any
 
 export type ProjectsProps = typeof enType;
 
