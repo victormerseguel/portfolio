@@ -6,7 +6,6 @@ import { Link } from "@/i18n/routing";
 
 // prettier-ignore
 const ProjectCard = ({ project }: { project: any }) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-  console.log(project);
   const t = useTranslations("Projects");
   const p = useTranslations("ProjectPage");
 

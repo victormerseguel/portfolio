@@ -4,8 +4,13 @@ import React, { useEffect } from "react";
 
 const Page = () => {
   const router = useRouter();
-  const language = window.navigator.language;
-  const languages = window.navigator.languages;
+  let language: string;
+  let languages: readonly string[];
+
+  if (window !== undefined) {
+    language = window.navigator.language;
+    languages = window.navigator.languages;
+  }
 
   useEffect(() => {
     if (language.includes("pt") || languages.includes("pt")) {
