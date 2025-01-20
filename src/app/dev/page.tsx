@@ -7,7 +7,7 @@ const Page = () => {
   let language: string;
   let languages: readonly string[];
 
-  if (window !== undefined) {
+  if (typeof window !== undefined) {
     language = window.navigator.language;
     languages = window.navigator.languages;
   }
