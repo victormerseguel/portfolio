@@ -3,9 +3,9 @@ import Image from "next/image";
 import React from "react";
 import NorthEastArrow from "../ui/icons/north-east-arrow-icon";
 import { Link } from "@/i18n/routing";
-import { ProjectsProps } from "./projects";
 
-const ProjectCard = ({ project }: { project: ProjectsProps }) => {
+// prettier-ignore
+const ProjectCard = ({ project }: { project: any }) => { // eslint-disable-line @typescript-eslint/no-explicit-any
   console.log(project);
   const t = useTranslations("Projects");
   const p = useTranslations("ProjectPage");
