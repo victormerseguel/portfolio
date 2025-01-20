@@ -9,7 +9,7 @@ const NavSelect = () => {
   return (
     <select
       name="lang"
-      id="lang"
+      id={pathname}
       onChange={(e) => router.push(`/${e.target.value}/dev`)}
       className="uppercase border-none ml-[-5px] bg-transparent cursor-pointer"
       value={pathname}
