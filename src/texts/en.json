@@ -66,9 +66,9 @@
     "projects": {
       "luciana_castellano": {
         "id": "luciana_castellano",
-        "title": "Luciana Castellano",
-        "description": "Created in Next.js 14 for SEO optimization and loading performance, this application was created to present the client's work and services in an elegant, organized, and efficient manner. With a design, also created by me, that sought a connection with the user, this application aims to serve as a showcase and search engine result for specialized mechanisms, as well as hosting sales pages and captures for eventual jobs offered by the client.\nWith great potential for scale, even with simple features, the choice of the Next.js 14 framework proved to be quite appropriate for future updates.",
-        "role": "",
+        "title": "Luciana Castellano – Personal Portfolio Website",
+        "description": "This project was developed in Next.js 14 to showcase the client's work and services in an elegant, organized, and efficient way. The design, also created by me, aimed to establish a connection with users while serving as both a showcase and search result for the client's services. It also includes pages for sales and lead captures for future potential work.\nThe choice of Next.js 14 was made to ensure scalability, even though the functionalities remain simple. It has proven to be a great decision for future updates and to enhance the website’s SEO performance, optimizing its loading time and search engine ranking.",
+        "role": "I was responsible for the entire development and design of this project. My contributions include the creation of a modern and user-friendly design, the integration of required functionalities, and the implementation of SEO strategies to improve visibility and performance in search engines.",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -92,8 +92,8 @@
       "videomaker_portfolio": {
         "id": "videomaker_portfolio",
         "title": "Videomaker Portfolio",
-        "description": "This project was the beginning of everything. After I started venturing into the programming world, my first personal project was creating a portfolio for my work as a videomaker. It began as a messy, self-taught project, simple in HTML, CSS, and JavaScript. Gradually, it evolved and organized itself, and today it's part of a larger portfolio, built in NEXT.js 14, utilizing the latest features available.\nSome interesting challenges included: creating a modal for each video, with Route Intercepting and Route Parallel so that each project could be viewed without losing existing navigation, while also providing a unique route for direct access to each project; using the native Image component for better loading performance and server-side caching, reducing total immediate requests when accessing the site, making them only when necessary; in addition to route organization, as this project is contained within a larger application, which includes the site we're currently on.\nThis is a project I hold dear because it's, as mentioned, the beginning of everything and at the same time a logbook of my journey and evolution in front-end development.",
-        "role": "",
+        "description": "This project was the beginning of everything. After I started venturing into the world of programming, my first personal project was creating a portfolio for my work as a videomaker. It started as a messy, self-taught, simple project in HTML, CSS, and JavaScript. Over time, it transformed and became more organized, and today it’s part of a larger portfolio built in Next.js 14, utilizing the latest features that it offers.\nSome interesting challenges included: creating a modal for each video with Route Intercepting and Route Parallel so that it was possible to view each project without losing the existing navigation, but also providing a unique route for each project to be accessed directly; using the native Image component for better loading performance and server-side caching, reducing the number of immediate requests when accessing the site and making them only when necessary; and organizing routes since this project is part of a larger application that includes the website we are on right now.\nThis is a project I hold dear because, as mentioned, it’s the beginning of everything and at the same time a diary of my journey and evolution in front-end development.",
+        "role": "I was responsible for the entire development of this portfolio. My contributions include transforming it from a simple structure into a fully functional, high-performance website using Next.js 14, implementing routing solutions, optimizing performance, and incorporating SEO techniques.",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -117,8 +117,8 @@
       "londe": {
         "id": "londe",
         "title": "L'Onde - Carole Mac Veigh",
-        "description": "This is an application created in React to promote and showcase the services offered by the client. With a modern yet feminine design, the application's functionalities are simple yet effective as well.\nBased on the one-page concept, there were important points of work for this application such as the possibility of language selection with the option stored in localStorage for future accesses, integration of forms with EmailJS, dynamic data feeding facilitating future changes and maintenance, as well as SEO techniques approaches like the insertion of the hreflang attribute for alternate routes for each language.\nAs an improvement goal, the intention is to eventually migrate the application to Next.js to improve SEO and further optimize its positioning for search engines.",
-        "role": "",
+        "description": "This React application was built to promote and showcase the services offered by the client. With a modern yet feminine design, the application is simple but effective in conveying the client's offerings.\nKey features include a language selection feature with preferences stored in localStorage for future sessions, integration with EmailJS for form submissions, dynamic content management for easy updates, and SEO techniques such as the inclusion of hreflang attributes for multi-language routes.\nIn the future, there are plans to migrate the app to Next.js in order to further improve SEO and optimize search engine ranking.",
+        "role": "I was responsible for the full development of the website, including designing the interface, implementing multi-language support, integrating EmailJS for form submissions, and configuring SEO elements such as hreflang tags for multilingual SEO.",
         "technologies": {
           "javascript": true,
           "typescript": false,

@@ -66,9 +66,9 @@
     "projects": {
       "luciana_castellano": {
         "id": "luciana_castellano",
-        "title": "Luciana Castellano",
-        "description": "Criado em Next.js 14 para otimização de SEO e performance de carregamento, esta aplicação foi criada para a apresentação dos trabalhos e serviços oferecidos pela cliente de forma elegante, organizada e eficiente. Com um design, também criado por mim, que buscasse uma conexão com o usuário, esta aplicação pretende servir de vitrine e resultado de buscas pelos mecanismos especializados, além de hospedar paginas de vendas e capturas para eventuais trabalhos oferecidos pela cliente.\nCom grande potencial de escala, mesmo que com funcionalidades simples, a escolha do framework Next.js 14 se mostrou bastante acertada para atualizações futuras.",
-        "role": "",
+        "title": "Luciana Castellano - Apresentação de Serviços e Portfólio",
+        "description": "Este projeto foi desenvolvido em Next.js 14 para a apresentação dos trabalhos e serviços oferecidos pela cliente de forma elegante, organizada e eficiente. O design, também criado por mim, busca estabelecer uma conexão com o usuário enquanto serve como uma vitrine e resultado de buscas pelos serviços da cliente. Além disso, inclui páginas de vendas e captura para potenciais trabalhos futuros.\nA escolha do Next.js 14 foi feita para garantir escalabilidade, mesmo com funcionalidades simples. A decisão se mostrou acertada para atualizações futuras, otimizando o SEO e o tempo de carregamento, além de melhorar o posicionamento nos motores de busca.",
+        "role": "Fui responsável por todo o desenvolvimento e design deste projeto. Minhas contribuições incluem a criação de um design moderno e amigável ao usuário, a integração de funcionalidades necessárias e a implementação de estratégias de SEO para melhorar a visibilidade e o desempenho nos motores de busca.",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -93,7 +93,7 @@
         "id": "videomaker_portfolio",
         "title": "Portfólio Videomaker",
         "description": "Este projeto foi o início de tudo. Depois que comecei a me aventurar no mundo da programação, o meu primeiro projeto pessoal foi a criação de um portfólio para meus trabalhos como videomaker. Começou com um projeto bagunçado, autodidata, simples em HTML, CSS e JavaScript. Aos poucos foi se transformando, se organizando e hoje faz parte de um portfólio maior, feito em NEXT.js 14, utilizando as últimas funcionalidades que ali se apresentam no momento.\nAlguns desafios interessantes foram: criar um modal para cada vídeo, com Route Intercepting e Route Parallel para que ao mesmo tempo fosse possível visualizar cada projeto sem perder a navegação existente, mas também fornecer uma rota única para que cada projeto fosse acessado diretamente; a utilização do componente nativo Image para uma melhor performance de carregamento e cache em servidor, diminuindo o total das requisições imediatas ao acessar o site, fazendo-as apenas quando necessário; além da organização de rotas, uma vez que este projeto está contido numa aplicação maior, que inclui este site em que estamos no momento.\nEste é um projeto que tenho muito carinho por ser, como mencionado, o início de tudo e ao mesmo tempo um diário de bordo de minha trajetória e evolução no front-end.",
-        "role": "",
+        "role": "Fui responsável por todo o desenvolvimento deste portfólio. Minhas contribuições incluem transformar o projeto de uma estrutura simples para um site totalmente funcional e com alto desempenho utilizando Next.js 14, implementando soluções de roteamento, otimizando o desempenho e incorporando técnicas de SEO.",
         "technologies": {
           "javascript": true,
           "typescript": false,
@@ -117,8 +117,8 @@
       "londe": {
         "id": "londe",
         "title": "L'Onde - Carole Mac Veigh",
-        "description": "Esta é uma aplicação criada em React para a divulgação e exposição dos serviços oferecidos pela cliente. Com design moderno e ao mesmo tempo feminino, as funcionalidades da aplicação são simples, mas eficazes também.\nPartindo do conceito de one page, houveram pontos importantes de trabalho para esta aplicação como a possibilidade de seleção de língua com a opção armazenada em localStorage para futuros acessos, integração de formulários com EmailJS, alimentação dinâmica de dados facilitando futuras alterações e manutenção, além de abordagens de técnicas de SEO como a inserção do atributo hreflang para as alternativas de rotas para cada língua.\nComo meta de melhoramento, o intuito é futuramente migrar a aplicação para o Next.js para melhorar o SEO e otimizar ainda mais seu posicionamento para os mecanismos de busca.",
-        "role": "",
+        "description": "Esta aplicação React foi criada para promover e expor os serviços oferecidos pela cliente. Com um design moderno e ao mesmo tempo feminino, a aplicação é simples, mas eficaz na apresentação dos serviços da cliente.\nAs principais funcionalidades incluem a seleção de idioma com preferências armazenadas em localStorage para futuras sessões, integração com EmailJS para envio de formulários, gerenciamento dinâmico de conteúdo para facilitar as atualizações e técnicas de SEO, como a inclusão do atributo hreflang para rotas multilíngues.\nNo futuro, há planos de migrar a aplicação para Next.js para melhorar ainda mais o SEO e otimizar o posicionamento nos motores de busca.",
+        "role": "Fui responsável por todo o desenvolvimento do site, incluindo o design da interface, a implementação do suporte a múltiplos idiomas, a integração com EmailJS para envio de formulários e a configuração dos elementos de SEO, como os atributos hreflang para SEO multilíngue.",
         "technologies": {
           "javascript": true,
           "typescript": false,

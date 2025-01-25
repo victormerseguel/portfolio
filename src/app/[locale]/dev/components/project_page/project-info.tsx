@@ -44,7 +44,7 @@ const ProjectInfo = () => {
               <h6 className="mt-9 mb-3 text-xl font-semibold">
                 {t("about.role")}
               </h6>
-              <p className="text-sm font-normal leading-7">
+              <p className="text-sm font-normal leading-7 whitespace-pre-wrap">
                 {t(`projects.${pathname}.role`)}
               </p>
             </>
